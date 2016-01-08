@@ -5,7 +5,7 @@ An activity for a user logining in to a VLE
 ### Actor
 
 Accounts is used as the identifer.  Account/Name is the internal identifier used by Moodle.
-
+``` Javascript
 {
     "version": "1.0.0",
     "actor": {
@@ -16,11 +16,13 @@ Accounts is used as the identifer.  Account/Name is the internal identifier used
             "homePage": "https://courses.alpha.jisc.ac.uk/moodle"
         }
     },
+```
 
 ### Verb
 
 Verb is self explanatory
 
+``` 
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedin/",
         "display": {
@@ -28,11 +30,12 @@ Verb is self explanatory
             "en-US": "logged in to"
         }
     },
-    
+``` 
 ### Context
 
 Context gives the platform.  An extension gives core details from the Moodle Logstore table in the extension 'http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log'
 
+```
 "context": {
         "platform": "Moodle",
         "extensions": {
@@ -54,11 +57,11 @@ Context gives the platform.  An extension gives core details from the Moodle Log
             }
         }
     },
-
+```
 ### Object
 
 The object defines the item that the use hits when they login to moodle.  A moodle specific exentions gives the url of the moodle site being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
-
+```
 "object": {
         "objectType": "Activity",
         "id": "https://courses.alpha.jisc.ac.uk/moodle",
@@ -79,3 +82,4 @@ The object defines the item that the use hits when they login to moodle.  A mood
             }
         }
     },
+```
