@@ -18,21 +18,7 @@
     "context": {
         "platform": "Moodle",
         "extensions": {
-            "http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log": {
-                "eventname": "\\core\\event\\user_loggedin",
-                "component": "core",
-                "action": "loggedin",
-                "objecttable": "user",
-                "objectid": "2",
-                "crud": "r",
-                "contextid": 1,
-                "contextlevel": 10,
-                "userid": "2",
-                "other": "a:1:{s:8:\"username\";s:6:\"madmin\";}",
-                "timecreated": 1452246471,
-                "origin": "web",
-                "ip": "86.148.72.12",
-                "object": "user"
+           
             }
         }
     },
@@ -51,8 +37,8 @@
                 "en-US": "A Moodle course"
             },
             "extensions": {
-                "http://lrs.learninglocker.net/define/extensions/moodle_course": {
-                    "url": "https://courses.alpha.jisc.ac.uk/moodle"
+                "http://xapi.jisc.ac.uk/extensions/applicationType": {
+                    "url": "http://xapi.jisc.ac.uk/define/vle"
                 }
             }
         }
