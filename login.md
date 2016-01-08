@@ -33,34 +33,19 @@ Verb is self explanatory
 ``` 
 ### Context
 
-Context gives the platform.  An extension gives core details from the Moodle Logstore table in the extension 'http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log'
+Context gives the platform.  Plugin specific extensions are optional and not part of the core recipe
 
 ```
 "context": {
         "platform": "Moodle",
         "extensions": {
-            "http://lrs.learninglocker.net/define/extensions/moodle_logstore_standard_log": {
-                "eventname": "\\core\\event\\user_loggedin",
-                "component": "core",
-                "action": "loggedin",
-                "objecttable": "user",
-                "objectid": "2",
-                "crud": "r",
-                "contextid": 1,
-                "contextlevel": 10,
-                "userid": "2",
-                "other": "a:1:{s:8:\"username\";s:6:\"madmin\";}",
-                "timecreated": 1452246471,
-                "origin": "web",
-                "ip": "86.148.72.12",
-                "object": "user"
             }
         }
     },
 ```
 ### Object
 
-The object defines the item that the use hits when they login to moodle.  A moodle specific exentions gives the url of the moodle site being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
+The object defines the item that the use hits when they login to moodle.  A Jisc specific exentions details that it is a VLE that is being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
 ```
 "object": {
         "objectType": "Activity",
@@ -76,8 +61,8 @@ The object defines the item that the use hits when they login to moodle.  A mood
                 "en-US": "A Moodle course"
             },
             "extensions": {
-                "http://lrs.learninglocker.net/define/extensions/moodle_course": {
-                    "url": "https://courses.alpha.jisc.ac.uk/moodle"
+                ""http://xapi.jisc.ac.uk/extensions/applicationType": {
+                    "type": "http://xapi.jisc.ac.uk/define/vle"
                 }
             }
         }
