@@ -24,7 +24,7 @@ Example
 ``` javascript
 "object": {
 	"objectType": "Activity",
-	"id": "https://courses.alpha.jisc.ac.uk/moodle/mod/page/view.php?id=250    	 	//  unique id or url of the item being logged into
+	"id": "https://courses.alpha.jisc.ac.uk/moodle/mod/page/view.php?id=250"   	 	//  unique id or url of the item being logged into
 	"definition": {
 		"type": "http://adlnet.gov/expapi/activities/module",			//  definition type as above
 		 "name": { "en": "Moodle - UoG: University of Gloucestershire" },			   //  name of item as returned by VLE
@@ -33,4 +33,5 @@ Example
     				"http://xapi.jisc.ac.uk/extensions/moduleType":"http://xapi.jisc.ac.uk/define/vle/page",
             	 }
 	 }
+}
 ```
