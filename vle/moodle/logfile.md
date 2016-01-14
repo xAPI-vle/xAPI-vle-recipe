@@ -2,6 +2,7 @@
 The moodle plugin is a log file extension, and therefore can only use items in the log file.  The table definition is as follows:
 
 ## Module log file
+```
 
    id` bigint(10) NOT NULL AUTO_INCREMENT,
   `eventname` varchar(255) NOT NULL DEFAULT '',
@@ -24,3 +25,5 @@ The moodle plugin is a log file extension, and therefore can only use items in t
   `origin` varchar(10) DEFAULT NULL,
   `ip` varchar(45) DEFAULT NULL,
   `realuserid` bigint(10) DEFAULT NULL,
+  
+```
