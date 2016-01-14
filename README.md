@@ -6,3 +6,7 @@ These are the currently documented recipies:
 ### Logged in
 * [JSON] (login.js)
 * [Documentation] (login.md)
+
+### VLE samples
+
+* [Blackboard VLE samples] (vle/blackboard/Examples.md)
