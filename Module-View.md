@@ -29,9 +29,9 @@ Example
 		"type": "http://adlnet.gov/expapi/activities/module",			//  definition type as above
 		 "name": { "en": "Moodle - UoG: University of Gloucestershire" },			   //  name of item as returned by VLE
 		"description": { "en": "<p>Moodle\u00a0- UoG: University of Gloucestershire</p>"	 } //  description of item as returned by VLE
-"extensions": {
+		"extensions": {
     				"http://xapi.jisc.ac.uk/extensions/moduleType":"http://xapi.jisc.ac.uk/define/vle/page",
-            	 }
+            	 	}
 	 }
 }
 ```
