@@ -11,7 +11,7 @@ An activity that shows a users has viewed a vle resource for example a Moodle Mo
             "en-US": "viewed"
         }
     },
-'''
+```
 ### Object:
 Needs to identify what was logged in to.
 Jisc or LearningLocker  (?) will maintain a sector definition for object.definition.extention
