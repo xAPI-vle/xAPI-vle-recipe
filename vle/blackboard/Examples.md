@@ -24,3 +24,9 @@ Student manually logged out from BBLearn
 Student session expired
 
 * [session_timeout.js] (session_timeout.js)
+
+###Course View
+
+Student accesses course home page
+
+* [course_access.js] (course_access.js)
