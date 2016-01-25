@@ -31,6 +31,8 @@ Student accesses course home page
 
 * [course_access.js] (course_access.js)
 
+###Course Content View
+
 Student accesses course content
 
 * [course_content_access.js] (course_content_access.js)
