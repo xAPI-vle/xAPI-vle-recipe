@@ -30,3 +30,7 @@ Student session expired
 Student accesses course home page
 
 * [course_access.js] (course_access.js)
+
+Student accesses course content
+
+* [course_content_access.js] (course_content_access.js)
