@@ -2,7 +2,8 @@
 layout: default
 ---
 
-#Overview of the Framework
+Overview of the Framework
+=========================
 
 The core of the framework is the Learning Records Warehouse (LRW).  
 This holds data:
@@ -13,7 +14,8 @@ Universites and colleges can provide access to developers and applications to su
 
 This data can be used for predicative analytics, to provide dashboards for staff and students, and to build any other learning application that can make use of this data set, as long is it complies with [https://www.jisc.ac.uk/guides/code-of-practice-for-learning-analytics] (Jisc's Learning Analytics code of practice)
 
-##Example application flows
+Example application flows
+-----------------
 
 ### Example flow for a student facing application
 
@@ -31,7 +33,8 @@ This data can be used for predicative analytics, to provide dashboards for staff
 5) Predications of student achievement and updated with the new data.
 6) Alerts are generated if a student in not predicted to succeed.
 
-##More about the data
+More about the data
+-------
 
 ### Activity Data
 Activity data is stored in xAPI (or Tincan Format).  For information on Tincan see [http://tincanapi.com/](http://tincanapi.com/).

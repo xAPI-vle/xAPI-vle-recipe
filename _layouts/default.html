@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en-us">
+  <head>
 
-  {% include head.html %}
+ {% include head.html %}
 
-  <body>
+<script>
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
 
-    {% include sidebar.html %}
+{% if page.datatable == true %}
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
+<script>
+  $(document).ready(function(){
 
-    <div class="content container">
-      {{ content }}
-    </div>
+      $('table.datatable').DataTable( {
+                  paging: false,
+                  stateSave: true
+              }
+      );
+</script>
+{% endif %}
 
-  </body>
+  </head>
+
+<body>
+
+   {% include topnav.html %}
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="col-lg-12">&nbsp;</div>
+
+
+{% include sidebar.html %}
+
+            <!-- Content Column -->
+            <div class="col-md-9">
+                {% comment %}
+                {% include algolia.html %}
+                 {% endcomment %}
+                {{content}}
+            </div><!-- /.row -->
+
+    </div>    <!-- /.container -->
+
+</body>
+
+
 </html>
+
