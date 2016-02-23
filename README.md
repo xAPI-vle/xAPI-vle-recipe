@@ -14,6 +14,7 @@ If the need arises, particular versions will get their own branches, but until t
 
 ## Structure
 Each recipe has a .md file with documentation for the recipe item, and a .js file will a json sample.
+
 ## Recipes
 These are the currently documented recipes:
 
@@ -22,3 +23,11 @@ These are the currently documented recipes:
 ### VLE samples
 
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
+
+### Logged in
+* [JSON] (login.js)
+* [Documentation] (login.md)
+
+### Predictive Model Output
+* [JSON] (/lap/apereo/model_output.js)
+* [Documentation] (/lap/apereo/model_output.md)
