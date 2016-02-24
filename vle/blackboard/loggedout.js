@@ -2,12 +2,6 @@
     "version": "1.0.0",
     "id": "f89005cc-dd1c-4f44-a4ac-1c748b3ce28a",
     "timestamp": "2015-12-11T10:57:18.000Z",
-    "verb": {
-        "id": "https://brindlewaye.com/xAPITerms/verbs/loggedout",
-        "display": {
-            "en-US": "logged out"
-        }
-    },
     "actor": {
         "objectType": "Agent",
         "name": "test1 test1",
@@ -16,10 +10,17 @@
             "name": "test1"
         }
     },
+    "verb": {
+        "id": "https://brindlewaye.com/xAPITerms/verbs/loggedout",
+        "display": {
+            "en-US": "logged out"
+        }
+    },
     "object": {
         "objectType": "Activity",
         "id": "https://services-uswest.skytap.com:27219/webapps/login/",
         "definition": {
+        	"type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
                 "en-US": "Blackboard (https://services-uswest.skytap.com:27219)"
             },
@@ -42,6 +43,5 @@
         "objectType": "Agent",
         "name": "BB Learn",
         "mbox": "mailto:hello@learninglocker.net"
-    },
-    "stored": "2016-01-08T13:10:39.424200+00:00"
+    }
 }

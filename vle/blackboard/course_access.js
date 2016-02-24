@@ -1,4 +1,7 @@
 {
+    "version": "1.0.0",
+    "id": "c3e2b586-8913-412c-9959-5210ceb79a2f",
+    "timestamp": "2015-12-11T10:19:49.000Z",
     "actor": {
         "objectType": "Agent",
         "name": "Student Name",
@@ -10,7 +13,7 @@
     "verb": {
         "id": "http://id.tincanapi.com/verb/viewed",
         "display": {
-            "en": "viewed",
+            "en-US": "viewed",
         }
     },
     "object": {
@@ -19,10 +22,10 @@
         "definition": {
             "type": "http://adlnet.gov/expapi/activities/course",
             "name": {
-                "en": "Course 001"
+                "en-US": "Course 001"
             },
             "description": {
-                "en": "Course 001 description"
+                "en-US": "Course 001 description"
             }
         }
     },
