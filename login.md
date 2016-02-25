@@ -1,5 +1,5 @@
 # VLE User Logged In Recipe
-##Purpose
+## Purpose
 An activity for a user logging in to a VLE
 ## Definition
 ### Actor
