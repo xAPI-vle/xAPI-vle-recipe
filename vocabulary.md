@@ -11,16 +11,16 @@
 |   |   |
 
 
-## Activity Types
+### Activity Types
 
 ### Extensions
 
 
 
-### http://xapi.jisc.ac.uk extensions
+## http://xapi.jisc.ac.uk extensions
 
 | Label  		| Description   | IRI    | Example Usage
-| ------------- | ------------- |------------------------------------------------------| |
+| ------------- | ------------- |------------------------------------------------------|----|
 | VLE Content   |               | http://xapi.jisc.ac.uk/define/extensions/vle | |
 | VLE Content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/page | |
 | VLE Content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | |
