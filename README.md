@@ -12,10 +12,15 @@ You can do all this through the Github GUI, but you're welcome to use any other 
 
 If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branche. Releases will be made after the group has come to an agreement.
 
+##V
+
+
+* [Vocabulary] (vocabulary.md)
+* [Common Structures] (common_structures.md)
+
 ## Structure
 Each recipe has a .md file with documentation for the recipe item, and a .js file will a json sample.
 
-## Recipes
 These are the currently documented recipes:
 
 * [Logged in] (login.md)

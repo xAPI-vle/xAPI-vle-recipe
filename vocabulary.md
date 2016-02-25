@@ -21,9 +21,9 @@
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
-| VLE Content   |               | http://xapi.jisc.ac.uk/define/extensions/vle | |
-| VLE page   |               | http://xapi.jisc.ac.uk/define/extensions/vle/page | |
-| VLE quiz   |               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | |
-| VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | |
-| Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | |
+| VLE    |               | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object] (login.md#Object)|
+| VLE page   |               | http://xapi.jisc.ac.uk/define/extensions/vle/page | Module-View Object |
+| VLE quiz   |               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | Module-View Object |
+| VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | Blackbord course content access.js|
+| Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | Logged In Object |
 
