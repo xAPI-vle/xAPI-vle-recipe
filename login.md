@@ -33,7 +33,7 @@ Verb is self explanatory
 ``` 
 ### Context
 
-Context gives the platform.  Plugin specific extensions are optional and not part of the core recipe
+Context gives the [platform](common_statements.md#"context"."platform").  Plugin specific extensions are optional and not part of the core recipe
 
 ```
 "context": {
