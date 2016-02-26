@@ -4,7 +4,7 @@ An activity for a user logging in to a VLE
 ## Definition
 ### Actor
 
-Accounts is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Accounts](common_statements.md#"actor"."account") is used as the identifer.  Account/Name is the internal identifier used by the VLE.
 ``` Javascript
 {
     "version": "1.0.0",

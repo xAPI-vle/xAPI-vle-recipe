@@ -4,8 +4,8 @@
 
 | Label  	   | Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)	 |[Logged in Recipe] (login.md) |
-|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | [Module-Viewed Recipe (Module-View.md)
+|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)	 |[Platform independent 'Logged in' Recipe] (login.md) |
+|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | [Platform independent 'Module Viewed' Recipe] (Module-View.md)
 
 
 ### Activity Types

@@ -1,8 +1,7 @@
 #Common Statement Properties
 
-For the majority of recipes these will be the same
 
-## Account
+### "actor"."account"
 Account is the internal identifier used by the VLE.
 
 ``` Javascript
@@ -19,8 +18,9 @@ Account is the internal identifier used by the VLE.
 ```
 
 
-## Context
+## "context"."platform"
 Context provides information about the system returning the information
+
 
 Context gives the platform.  Plugin specific extensions are optional and not part of the core recipe
 

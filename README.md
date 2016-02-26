@@ -20,23 +20,16 @@ If the need arises, particular versions will get their own branches, but until t
 
 # Recipes
 
-## Structure
-Each recipe has a .md file with documentation for the recipe item, and a .js file will a json sample.
-
-### Platform independant
-These are the currently documented recipes:
+## Platform independent
+These are the currently platform independent documented recipes:
 
 * [Logged in] (login.md)
 * [Module-viewed] (Module-View.md)
 
-### Platform Specific examples
+## Platform Specific examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
+* [Moodle VLE samples] (vle/moodle/examples.md)
 
-Moodle Logged in:
-* [JSON] (vle/blackboard/login.js)
-* [Documentation] (vle/blackboard/login.md)
-
-###
- Predictive Model Output
+## Predictive Model Output
 * [JSON] (/lap/apereo/model_output.js)
 * [Documentation] (/lap/apereo/model_output.md)
