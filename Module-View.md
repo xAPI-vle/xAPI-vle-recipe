@@ -1,4 +1,5 @@
 #Module/Block/Object View
+Revision 1
 ##Purpose
 An activity that shows a users has viewed a vle resource for example a Moodle Module or Blackboard building block (eg a page, resource, url)
 
