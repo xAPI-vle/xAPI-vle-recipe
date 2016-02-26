@@ -1,5 +1,5 @@
 #VLE Recipes for Jisc Learning Analytics Project
-##Workflow
+##Repository Workflow
 The simplest way of contributing to the UDD works as follows:
 
 1. add an issue to the issue tracker to alert everyone to what you are working on and why
@@ -12,27 +12,31 @@ You can do all this through the Github GUI, but you're welcome to use any other 
 
 If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branche. Releases will be made after the group has come to an agreement.
 
-##V
-
+## Vocabulary and Common Structures
 
 * [Vocabulary] (vocabulary.md)
 * [Common Structures] (common_structures.md)
 
+
+# Recipes
+
 ## Structure
 Each recipe has a .md file with documentation for the recipe item, and a .js file will a json sample.
 
+### Platform independant
 These are the currently documented recipes:
 
 * [Logged in] (login.md)
 * [Module-viewed] (Module-View.md)
-### VLE samples
 
+### Platform Specific examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
 
-### Logged in
-* [JSON] (login.js)
-* [Documentation] (login.md)
+Moodle Logged in:
+* [JSON] (vle/blackboard/login.js)
+* [Documentation] (vle/blackboard/login.md)
 
-### Predictive Model Output
+###
+ Predictive Model Output
 * [JSON] (/lap/apereo/model_output.js)
 * [Documentation] (/lap/apereo/model_output.md)
