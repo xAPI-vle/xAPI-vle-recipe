@@ -19,7 +19,7 @@
 
 | Label  			| Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-| VLE page   | Page within a VLE           | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | [Module-View - Object](Module-View.md#object) |
+| Module   | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | ['Module-View' example. Object.definition](Module-View.md#object) |
 
 
 ### Object.definition.extension 
@@ -41,3 +41,7 @@
 | VLE quiz   | A quiz in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object](Module-View.md#object) |
 | VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | [[Blackbord course content access] (vle/blackboard/course_content_access/js)|
 | Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in - Object] (login.md#object) Logged In Object |
+
+##Blackboard
+
+### Verbs
