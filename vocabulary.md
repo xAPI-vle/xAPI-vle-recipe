@@ -4,22 +4,22 @@
 
 | Label  	   | Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|[Platform independent 'Logged in' Recipe](login.md#verb) |
-|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | [Platform independent 'Module Viewed' Recipe](Module-View.md#verb)
+|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|['Logged in' verb](login.md#verb) |
+|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | ['Module Viewed' verb](Module-View.md#verb)
 
 
 ### Activity Types
 
 | Label  			| Description | IRI| Example Usage
 | ------------- | ------------- |--------|----|
-|  Application  | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	| [Platform independent 'Logged in' example] (login.md#example) |
+|  Application  | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|['Logged in' example object.definition.type] (login.md#complete_example) |
 
 
 ### Object.definition 
 
 | Label  			| Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-| VLE page   | Page within a VLE           | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module(http://adlnet.gov/expapi/activities/module) | [Module-View - Object](Module-View.md#object) |
+| VLE page   | Page within a VLE           | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | [Module-View - Object](Module-View.md#object) |
 
 
 ### Object.definition.extension 
@@ -31,9 +31,6 @@
 | Moodle   |An instance of Moodle               | http://lrs.learninglocker.net/define/extensions/moodle_course  | Logged in Example|
 | module type   |Moodle               | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](Module-View.md#object)|
 
-
-
-http://adlnet.gov/expapi/activities/module
 
 ## Newly minted http://xapi.jisc.ac.uk vocab
 
