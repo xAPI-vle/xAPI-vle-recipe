@@ -4,8 +4,8 @@
 
 | Label  	   | Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)	 |[Platform independent 'Logged in' Recipe] (login.md) |
-|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | [Platform independent 'Module Viewed' Recipe] (Module-View.md)
+|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)	 |[Platform independent 'Logged in' Recipe] (login.md#verb) |
+|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | [Platform independent 'Module Viewed' Recipe] (Module-View.md#verb)
 
 
 ### Activity Types
@@ -13,7 +13,7 @@
 | Label  			| Description | IRI
 | ------------- | ------------- |--------|----|
 |  Application  | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|
-|   |   |		|
+
 
 
 ### Object.definition.extension 
@@ -27,7 +27,7 @@
 
 
 
-## Newly minted - http://xapi.jisc.ac.uk 
+## Newly minted http://xapi.jisc.ac.uk vocab
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
