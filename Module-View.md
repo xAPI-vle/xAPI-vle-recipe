@@ -17,9 +17,10 @@ An activity that shows a users has viewed a vle resource for example a Moodle Mo
 ## Object:
 Needs to identify what was logged in to. [Examples of object.definition.extentions](vocabulary#Object.definition.extension)
 
-###Valid Values:
+### Valid Values:
 - http://xapi.jisc.ac.uk/define/vle/page
 - http://xapi.jisc.ac.uk/define/vle/quiz
+- etc
 
 	 
 ###Example

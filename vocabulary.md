@@ -12,7 +12,7 @@
 
 | Label  			| Description | IRI
 | ------------- | ------------- |--------|----|
-|   |   |    	|
+|  Application  | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|
 |   |   |		|
 
 
@@ -20,13 +20,14 @@
 
 | Label  			| Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-| VLE page   |               | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object] (Module-View.md#object) |
-| VLE quiz   |               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object] (Module-View.md#object) |
+| VLE page   | Page within a VLE           | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object] (Module-View.md#object) |
+| VLE quiz   | Quiz within a VLE               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object] (Module-View.md#object) |
+| Moodle   |An instance of Moodle               | http://lrs.learninglocker.net/define/extensions/moodle_course  | Logged in Example|
 
 
 
 
-## Full list of http://xapi.jisc.ac.uk minted
+## Newly minted - http://xapi.jisc.ac.uk 
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|

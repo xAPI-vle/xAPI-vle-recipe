@@ -1,5 +1,6 @@
 # VLE User Logged In Recipe
-Revision 1
+Rev:
+
 ## Purpose
 An activity for a user logging in to a VLE
 ## Definition
@@ -21,7 +22,7 @@ An activity for a user logging in to a VLE
 
 ### Verb
 
-The [loggedin](vocabulary.md#verbs) Verb is self explanatory
+The Verb,[logged in](vocabulary.md#verbs) is self explanatory
 
 ``` 
 "verb": {
