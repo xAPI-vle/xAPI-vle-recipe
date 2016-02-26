@@ -4,35 +4,43 @@
 
 | Label  	   | Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)	 |[Platform independent 'Logged in' Recipe] (login.md#verb) |
-|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | [Platform independent 'Module Viewed' Recipe] (Module-View.md#verb)
+|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|[Platform independent 'Logged in' Recipe](login.md#verb) |
+|  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | [Platform independent 'Module Viewed' Recipe](Module-View.md#verb)
 
 
 ### Activity Types
 
-| Label  			| Description | IRI
+| Label  			| Description | IRI| Example Usage
 | ------------- | ------------- |--------|----|
-|  Application  | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|
+|  Application  | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	| [Platform independent 'Logged in' example] (login.md#example) |
 
+
+### Object.definition 
+
+| Label  			| Description | IRI  | Example Usage
+| ------------- | ------------- |--------|----|
+| VLE page   | Page within a VLE           | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module(http://adlnet.gov/expapi/activities/module) | [Module-View - Object](Module-View.md#object) |
 
 
 ### Object.definition.extension 
 
 | Label  			| Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-| VLE page   | Page within a VLE           | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object] (Module-View.md#object) |
-| VLE quiz   | Quiz within a VLE               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object] (Module-View.md#object) |
+| VLE page   | Page within a VLE           | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object](Module-View.md#object) |
+| VLE quiz   | Quiz within a VLE               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object](Module-View.md#object) |
 | Moodle   |An instance of Moodle               | http://lrs.learninglocker.net/define/extensions/moodle_course  | Logged in Example|
+| module type   |Moodle               | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](Module-View.md#object)|
 
 
 
+http://adlnet.gov/expapi/activities/module
 
 ## Newly minted http://xapi.jisc.ac.uk vocab
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
-| VLE |               | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object] (login.md#object)|
-| VLE page   |               | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object] (Module-View.md#object) |
-| VLE quiz   |               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object] (Module-View.md#object) |
+| VLE | A virtual learning environment              | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object](login.md#object)|
+| VLE page   |   A page in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object](Module-View.md#object) |
+| VLE quiz   | A quiz in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object](Module-View.md#object) |
 | VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | [[Blackbord course content access] (vle/blackboard/course_content_access/js)|
 | Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in - Object] (login.md#object) Logged In Object |
