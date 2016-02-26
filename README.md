@@ -21,12 +21,14 @@ If the need arises, particular versions will get their own branches, but until t
 # Recipes
 
 ## Platform independent
+
+## VLE examples
 These are the currently platform independent documented recipes:
 
 * [Logged in] (login.md)
 * [Module-viewed] (Module-View.md)
 
-## Platform Specific examples
+## Specific VLE examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
 * [Moodle VLE samples] (vle/moodle/examples.md)
 

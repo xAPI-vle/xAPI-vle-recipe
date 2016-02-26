@@ -16,23 +16,21 @@
 |   |   |		|
 
 
-### Object Types
+### Object.definition.extension 
 
-| Label  			| Description | IRI
+| Label  			| Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-|   |   |	 |
-|   |   |	 |
-
-
-### Extensions
+| VLE page   |               | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object] (Module-View.md#object) |
+| VLE quiz   |               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object] (Module-View.md#object) |
 
 
 
-## http://xapi.jisc.ac.uk minted
+
+## Full list of http://xapi.jisc.ac.uk minted
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
-| VLE    |               | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object] (login.md#object)|
+| VLE |               | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object] (login.md#object)|
 | VLE page   |               | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object] (Module-View.md#object) |
 | VLE quiz   |               | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object] (Module-View.md#object) |
 | VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | [[Blackbord course content access] (vle/blackboard/course_content_access/js)|

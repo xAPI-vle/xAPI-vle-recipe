@@ -1,7 +1,9 @@
 #Common Statement Properties
 
 
-### "actor"."account"
+##actor
+
+### actor.account
 Account is the internal identifier used by the VLE.
 
 ``` Javascript
@@ -18,11 +20,11 @@ Account is the internal identifier used by the VLE.
 ```
 
 
-### "context"."platform"
-Context provides information about the system returning the information
+## context
+Context provides information about the system returning the information it gives the platform
 
-
-Context gives the platform.  Plugin specific extensions are optional and not part of the core recipe
+### context.platform
+Context gives the platform.  Plugin specific extensions are optional.
 
 ```
 "context": {

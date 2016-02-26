@@ -1,10 +1,11 @@
 # VLE User Logged In Recipe
+Revision 1
 ## Purpose
 An activity for a user logging in to a VLE
 ## Definition
 ### Actor
 
-[Accounts](common_statements.md#"actor"."account") is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Accounts](common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
 ``` Javascript
 {
     "version": "1.0.0",
@@ -20,7 +21,7 @@ An activity for a user logging in to a VLE
 
 ### Verb
 
-Verb is self explanatory
+The [loggedin](vocabulary.md#verbs) Verb is self explanatory
 
 ``` 
 "verb": {
@@ -33,7 +34,7 @@ Verb is self explanatory
 ``` 
 ### Context
 
-Context gives the [platform](common_statements.md#"context"."platform").  Plugin specific extensions are optional and not part of the core recipe
+Context gives the [platform](common_statements.md#context.platform).  Plugin specific extensions are optional and not part of the core recipe
 
 ```
 "context": {
