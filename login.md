@@ -1,8 +1,8 @@
 # VLE User Logged In Recipe
-Rev:
+Rev: 1.0
 
 ## Purpose
-An activity for a user logging in to a VLE
+This activity records a user logging in to a VLE.
 ## Definition
 ### Actor
 
@@ -22,7 +22,7 @@ An activity for a user logging in to a VLE
 
 ### Verb
 
-The Verb,[logged in](vocabulary.md#verbs) is self explanatory
+The Verb,[logged in](vocabulary.md#verbs) describes the action of logging into a platform.
 
 ``` javascript
 "verb": {
@@ -35,7 +35,7 @@ The Verb,[logged in](vocabulary.md#verbs) is self explanatory
 ``` 
 ### Context
 
-Context gives the [platform](common_statements.md#context.platform).  Plugin specific extensions are optional and not part of the core recipe
+Context identifies the [platform](common_statements.md#context.platform) that is being logged into.  Plugin specific extensions are optional and not part of the core recipe
 
 ``` javascript
 "context": {
@@ -47,7 +47,7 @@ Context gives the [platform](common_statements.md#context.platform).  Plugin spe
 ```
 ### Object
 
-The object defines the item that the use hits when they login to moodle.  A Jisc specific exentions details that it is a VLE that is being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
+The object defines the item that the user hits when they login into a VLE; Moodle in this example.  A Jisc specific exention details that it is a VLE that is being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
 ``` javascript
 "object": {
         "objectType": "Activity",
