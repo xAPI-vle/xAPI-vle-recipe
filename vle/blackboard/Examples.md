@@ -2,7 +2,7 @@
 
 ##All examples of currently supported activity events recipes
 
-###Common for all activity events recipes
+###Common for all Blackboard Learn activity event recipes
 
 * "timestamp": time of when the event occurred in BBLearn
 * "actor"."name": student first name and last name
