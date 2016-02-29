@@ -19,7 +19,7 @@
 
 | Label  			| Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-| Module   | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | ['Module-View' example. Object.definition](Module-View.md#object) |
+| Module   | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | ['Module-View' Object.definition](Module-View.md#object) |
 
 
 ### Object.definition.extension 

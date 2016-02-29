@@ -15,7 +15,7 @@ If the need arises, particular versions will get their own branches, but until t
 ## Vocabulary and Common Structures
 
 * [Vocabulary] (vocabulary.md)
-* [Common Structures] (common_structures.md)
+* [Common Structures] (common_statements.md)
 
 
 # Recipes

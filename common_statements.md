@@ -1,9 +1,9 @@
 #Common Statement Properties
 
 
-##actor
+For all recipes account.actor and context is the same:
 
-### actor.account
+### account.actor
 Account is the internal identifier used by the VLE.
 
 ``` Javascript
@@ -23,14 +23,17 @@ Account is the internal identifier used by the VLE.
 ## context
 Context provides information about the system returning the information it gives the platform
 
-### context.platform
-Context gives the platform.  Plugin specific extensions are optional.
-
-```
-"context": {
-        "platform": "Moodle",
-        "extensions": {
+ ```  
+	"context": { 
+        "platform": "Moodle",         //  The VLE Platform
+        "version": "2.9.1",      //  The VLE Version number
+        "ip": "10.1.1.2",        //  The ip address of the system emitting the event
+        "extension": {        //  Information on the extension or plugin emitting the event
+		"http://lrs.learninglocker.net/define/extensions/info": {
+                            "https://moodle.org/": "2.8.7+ (Build: 20150730)",
+                            "https://github.com/LearningLocker/Moodle-Log-Expander": "0.4.2\n",
+                            "https://github.com/LearningLocker/Moodle-xAPI-Translator": "0.4.1\n",
+                            "https://github.com/LearningLocker/xAPI-Recipe-Emitter": "0.4.3\n"
             }
-        }
-    },
+
  ```  
