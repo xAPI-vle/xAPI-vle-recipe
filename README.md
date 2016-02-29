@@ -1,6 +1,6 @@
-#VLE Recipes for Jisc Learning Analytics Project
+#xAPI recipes for the Jisc Learning Analytics Project
 ##Repository Workflow
-The simplest way of contributing to the UDD works as follows:
+The simplest way of contributing xAPI recipes works as follows:
 
 1. add an issue to the issue tracker to alert everyone to what you are working on and why
 2. tag the issue with the version milestone you'd like the patch to be a part of
@@ -10,7 +10,7 @@ The simplest way of contributing to the UDD works as follows:
 
 You can do all this through the Github GUI, but you're welcome to use any other git tool you prefer.
 
-If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branche. Releases will be made after the group has come to an agreement.
+If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branch. Releases will be made after the group has come to an agreement.
 
 ## Vocabulary and Common Structures
 
@@ -33,5 +33,5 @@ These are the currently platform independent documented recipes:
 * [Moodle VLE samples] (vle/moodle/examples.md)
 
 ## Predictive Model Output
-* [JSON] (/lap/apereo/model_output.js)
-* [Documentation] (/lap/apereo/model_output.md)
+* [Alerting JSON] (/lap/apereo/model_output.js)
+* [Alerting] (/lap/apereo/model_output.md)
