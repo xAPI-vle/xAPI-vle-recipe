@@ -1,4 +1,5 @@
-# Vocabulary
+# JISC Learning Analytics Vocabulary
+The following terms are in use in the Jisc LA recipes.
 
 ### Verbs
 
@@ -32,7 +33,8 @@
 | module type   |Moodle               | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](Module-View.md#object)|
 
 
-## Newly minted http://xapi.jisc.ac.uk vocab
+## Jisc extensions
+The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Not that the namespace URI may change.
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
