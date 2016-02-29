@@ -1,7 +1,5 @@
 #Common Statement Properties
-
-
-For all recipes account.actor and context is the same:
+The following are statement level properties that are used in several recipes.
 
 ### account.actor
 Account is the internal identifier used by the VLE.
@@ -23,7 +21,7 @@ Account is the internal identifier used by the VLE.
 ## context
 Context provides information about the system returning the information it gives the platform
 
- ```  
+ ```Javascript
 	"context": { 
         "platform": "Moodle",         //  The VLE Platform
         "version": "2.9.1",      //  The VLE Version number
