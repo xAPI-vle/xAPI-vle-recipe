@@ -24,7 +24,7 @@ An activity for a user logging in to a VLE
 
 The Verb,[logged in](vocabulary.md#verbs) is self explanatory
 
-``` 
+``` javascript
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedin/",
         "display": {
@@ -37,7 +37,7 @@ The Verb,[logged in](vocabulary.md#verbs) is self explanatory
 
 Context gives the [platform](common_statements.md#context.platform).  Plugin specific extensions are optional and not part of the core recipe
 
-```
+``` javascript
 "context": {
         "platform": "Moodle",
         "extensions": {
@@ -48,7 +48,7 @@ Context gives the [platform](common_statements.md#context.platform).  Plugin spe
 ### Object
 
 The object defines the item that the use hits when they login to moodle.  A Jisc specific exentions details that it is a VLE that is being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
-```
+``` javascript
 "object": {
         "objectType": "Activity",
         "id": "https://courses.alpha.jisc.ac.uk/moodle",
@@ -63,7 +63,7 @@ The object defines the item that the use hits when they login to moodle.  A Jisc
                 "en-US": "A Moodle course"
             },
             "extensions": {
-                ""http://xapi.jisc.ac.uk/extensions/applicationType": {
+                "http://xapi.jisc.ac.uk/extensions/applicationType": {
                     "type": "http://xapi.jisc.ac.uk/define/vle"
                 }
             }
