@@ -2,12 +2,6 @@
     "version": "1.0.0",
     "id": "fed1365a-61c7-4785-a07f-8ef4837695f8",
     "timestamp": "2015-12-10T08:55:09.000Z",
-    "verb": {
-        "id": "https://w3id.org/xapi/adl/verbs/abandoned",
-        "display": {
-            "en-US": "session timed out"
-        }
-    },
     "actor": {
         "objectType": "Agent",
         "name": "test1 test1",
@@ -16,10 +10,17 @@
             "name": "test1"
         }
     },
+    "verb": {
+        "id": "https://w3id.org/xapi/adl/verbs/abandoned",
+        "display": {
+            "en-US": "session timed out"
+        }
+    },
     "object": {
         "objectType": "Activity",
         "id": "https://services-uswest.skytap.com:27219/webapps/login/",
         "definition": {
+        	"type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
                 "en-US": "Blackboard (https://services-uswest.skytap.com:27219)"
             },
@@ -42,6 +43,5 @@
         "objectType": "Agent",
         "name": "BB Learn",
         "mbox": "mailto:hello@learninglocker.net"
-    },
-    "stored": "2016-01-08T13:10:39.418100+00:00"
+    }
 }
