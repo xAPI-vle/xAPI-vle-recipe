@@ -6,7 +6,7 @@ This activity records a user logging in to a VLE.
 ## Definition
 ### Actor
 
-[Account](common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Account](/common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
 ``` Javascript
 {
     "version": "1.0.0",
@@ -22,7 +22,7 @@ This activity records a user logging in to a VLE.
 
 ### Verb
 
-The Verb,[logged in](vocabulary.md#verbs) describes the action of logging into a platform.
+The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into a platform.
 
 ``` javascript
 "verb": {
@@ -35,7 +35,7 @@ The Verb,[logged in](vocabulary.md#verbs) describes the action of logging into a
 ``` 
 ### Context
 
-[Context identifies](common_statements.md) the platform that is being logged into.  Plugin specific extensions are optional and not part of the core recipe
+[Context identifies](/common_statements.md) the platform that is being logged into.  Plugin specific extensions are optional and not part of the core recipe
 
 ``` javascript
 "context": {
@@ -48,7 +48,7 @@ The Verb,[logged in](vocabulary.md#verbs) describes the action of logging into a
 ### Object
 
 The object defines the item that the user hits when they login into a VLE.  
-A [Jisc specific extension](common_statements.md#jisc_extensions) details that it is a VLE that is being logged into 
+A [Jisc specific extension](/common_statements.md#jisc_extensions) details that it is a VLE that is being logged into 
 ``` javascript
 
 "object": {
@@ -74,6 +74,6 @@ A [Jisc specific extension](common_statements.md#jisc_extensions) details that i
 ```
 
 ### Complete Specific Examples
-[Moodle](/Moodle/login.js)
+[Moodle](vle/Moodle/login.js)
 
-[Blackboard](/blackboard/loggedin.js)
+[Blackboard](vle/blackboard/loggedin.js)
