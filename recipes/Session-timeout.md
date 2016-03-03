@@ -1,8 +1,8 @@
-# VLE User Logged Out Recipe
+# VLE Session timed Out Recipe
 Revision: Working Towards 1.0
 
 ## Purpose
-This activity records a user logging out of a VLE.
+This activity indicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure.
 ## Definition
 ### Actor
 
@@ -22,7 +22,7 @@ This activity records a user logging out of a VLE.
 
 ### Verb
 
-The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out of a platform.
+The Verb,[abandoned](/vocabulary.md#verbs) describes the action of logging out of a platform.
 
 ``` javascript
 "verb": {
