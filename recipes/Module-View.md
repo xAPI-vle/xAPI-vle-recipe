@@ -57,6 +57,6 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 ```
 
 ### Complete VLE Specific Examples
-[Moodle Example](/vle/Moodle/moduleview.js)
+[Moodle Example](/vle/moodle/moduleview.js)
 
 [Blackboard Example](/vle/blackboard/loggedin.js)
