@@ -1,10 +1,12 @@
 # VLE User Logged In Recipe
-##Purpose
-An activity for a user logging in to a VLE
+Rev: 1.0
+
+## Purpose
+This activity records a user logging in to a VLE.
 ## Definition
 ### Actor
 
-Accounts is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Accounts](common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
 ``` Javascript
 {
     "version": "1.0.0",
@@ -20,9 +22,9 @@ Accounts is used as the identifer.  Account/Name is the internal identifier used
 
 ### Verb
 
-Verb is self explanatory
+The Verb,[logged in](vocabulary.md#verbs) describes the action of logging into a platform.
 
-``` 
+``` javascript
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedin/",
         "display": {
@@ -33,9 +35,9 @@ Verb is self explanatory
 ``` 
 ### Context
 
-Context gives the platform.  Plugin specific extensions are optional and not part of the core recipe
+Context identifies the [platform](common_statements.md#context.platform) that is being logged into.  Plugin specific extensions are optional and not part of the core recipe
 
-```
+``` javascript
 "context": {
         "platform": "Moodle",
         "extensions": {
@@ -45,8 +47,8 @@ Context gives the platform.  Plugin specific extensions are optional and not par
 ```
 ### Object
 
-The object defines the item that the use hits when they login to moodle.  A Jisc specific exentions details that it is a VLE that is being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
-```
+The object defines the item that the user hits when they login into a VLE; Moodle in this example.  A Jisc specific exention details that it is a VLE that is being logged into ('http://lrs.learninglocker.net/define/extensions/moodle_course') 
+``` javascript
 "object": {
         "objectType": "Activity",
         "id": "https://courses.alpha.jisc.ac.uk/moodle",
@@ -61,7 +63,7 @@ The object defines the item that the use hits when they login to moodle.  A Jisc
                 "en-US": "A Moodle course"
             },
             "extensions": {
-                ""http://xapi.jisc.ac.uk/extensions/applicationType": {
+                "http://xapi.jisc.ac.uk/extensions/applicationType": {
                     "type": "http://xapi.jisc.ac.uk/define/vle"
                 }
             }

@@ -1,8 +1,28 @@
 #Module/Block/Object View
+Rev: 1.0.0
+
 ##Purpose
-An activity that shows a users has viewed a vle resource for example a Moodle Module or Blackboard building block (eg a page, resource, url)
+An activity that shows that a user has viewed a vle resource such as a Moodle Module or Blackboard building block (eg a page as identified by its url)
+
+### Actor
+[Accounts](common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+``` Javascript
+{
+    "version": "1.0.0",
+    "actor": {
+        "objectType": "Agent",
+        "name": "madmin",
+        "account": {
+            "name": "2",
+            "homePage": "https://courses.alpha.jisc.ac.uk/moodle"
+        }
+    },
+```
 
 ##Verb:
+
+The Verb,[viewed](vocabulary.md#verbs) denotes the action of the user's browser or app requesting the resource that the user wishes to view.
+
 ``` javascript
 "verb": {
         "id": "http://id.tincanapi.com/verb/viewed",
@@ -12,14 +32,15 @@ An activity that shows a users has viewed a vle resource for example a Moodle Mo
         }
     },
 ```
-## Object:
-Needs to identify what was logged in to.
-Jisc or LearningLocker (?) will maintain a sector definition for object.definition.extention
 
-###Valid Values:
+## Object:
+Needs to identify what was requested. A list of valid values can be found at [examples of object.definition.extensions](vocabulary#Object.definition.extension)
+
+### Valid Values:
 - http://xapi.jisc.ac.uk/define/vle/page
 - http://xapi.jisc.ac.uk/define/vle/quiz
-- etc….
+- etc
+
 	 
 ###Example
 ``` javascript

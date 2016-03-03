@@ -1,6 +1,6 @@
-#VLE Recipes for Jisc Learning Analytics Project
-##Workflow
-The simplest way of contributing to the UDD works as follows:
+#xAPI recipes for the Jisc Learning Analytics Project
+##Repository Workflow
+The simplest way of contributing xAPI recipes works as follows:
 
 1. add an issue to the issue tracker to alert everyone to what you are working on and why
 2. tag the issue with the version milestone you'd like the patch to be a part of
@@ -10,24 +10,28 @@ The simplest way of contributing to the UDD works as follows:
 
 You can do all this through the Github GUI, but you're welcome to use any other git tool you prefer.
 
-If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branche. Releases will be made after the group has come to an agreement.
+If the need arises, particular versions will get their own branches, but until that time, everything is merged into the main branch. Releases will be made after the group has come to an agreement.
 
-## Structure
-Each recipe has a .md file with documentation for the recipe item, and a .js file will a json sample.
+## Vocabulary and Common Structures
 
-## Recipes
-These are the currently documented recipes:
+* [Vocabulary] (vocabulary.md)
+* [Common Structures] (common_statements.md)
+
+
+# Recipes
+
+## Platform independent
+
+## VLE examples
+These are the currently platform independent documented recipes:
 
 * [Logged in] (login.md)
 * [Module-viewed] (Module-View.md)
-### VLE samples
 
+## Specific VLE examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
+* [Moodle VLE samples] (vle/moodle/examples.md)
 
-### Logged in
-* [JSON] (login.js)
-* [Documentation] (login.md)
-
-### Predictive Model Output
-* [JSON] (/lap/apereo/model_output.js)
-* [Documentation] (/lap/apereo/model_output.md)
+## Predictive Model Output
+* [Alerting JSON] (/lap/apereo/model_output.js)
+* [Alerting] (/lap/apereo/model_output.md)
