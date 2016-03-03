@@ -74,6 +74,6 @@ The object defines the item that the user hits when they login into a VLE.   A [
 ```
 
 ### Complete VLE Specific Examples
-[Moodle Login Example](/vle/Moodle/login.js)
+[Moodle Login Example](/vle/moodle/login.js)
 
 [Blackboard Login Example](/vle/blackboard/loggedin.js)
