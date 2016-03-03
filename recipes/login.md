@@ -74,5 +74,6 @@ A [Jisc specific extension](common_statements.md#jisc_extensions) details that i
 ```
 
 ### Complete Specific Examples
-[Moodle](Moodle/login.js)
-[Blackboard](blackboard/loggedin.js)
+[Moodle](/Moodle/login.js)
+
+[Blackboard](/blackboard/loggedin.js)
