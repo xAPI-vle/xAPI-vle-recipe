@@ -36,7 +36,7 @@ The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out 
 
 ### Context
 
-[Context identifies](/common_statements.md) the platform that is being logged out of.  Plugin specific extensions are optional and not part of the core recipe
+[Context identifies](/common_statements.md#verbs) the platform that is being logged out of.  Plugin specific extensions are optional and not part of the core recipe
 
 ``` javascript
 "context": {
@@ -76,6 +76,8 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
 ```
 
 
-### Complete Specific Examples
+### Complete VLE Specific Examples
+
 Moodle (ToDo)
+
 [Blackboard](blackboard/loggedout.js)

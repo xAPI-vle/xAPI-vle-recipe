@@ -35,7 +35,7 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 ``` 
 ### Context
 
-[Context identifies](/common_statements.md) the platform that is being logged into.  Plugin specific extensions are optional and not part of the core recipe
+[Context identifies](/common_statements.md#context) the platform that is being logged into.  Plugin specific extensions are optional and not part of the core recipe
 
 ``` javascript
 "context": {
@@ -73,7 +73,7 @@ The object defines the item that the user hits when they login into a VLE.   A [
     },
 ```
 
-### Complete Specific Examples
-[Moodle Login Example](vle/Moodle/login.js)
+### Complete VLE Specific Examples
+[Moodle Login Example](/vle/Moodle/login.js)
 
-[Blackboard Login Example](vle/blackboard/loggedin.js)
+[Blackboard Login Example](/vle/blackboard/loggedin.js)

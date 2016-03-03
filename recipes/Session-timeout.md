@@ -76,6 +76,6 @@ The object defines the item that the user has timed out of.  A [Jisc specific ex
 ```
 
 
-### Complete Specific Examples
+### Complete VLE Specific Examples
 Moodle (ToDo)
 [Blackboard](blackboard/loggedout.js)
