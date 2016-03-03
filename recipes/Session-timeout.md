@@ -26,10 +26,10 @@ The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out 
 
 ``` javascript
 "verb": {
-        "id": "https://brindlewaye.com/xAPITerms/verbs/loggedout",
+        "id": "https://w3id.org/xapi/adl/verbs/abandoned",
         "display": {
-            "en-GB": "logged out of",
-            "en-US": "logged out of"
+            "en-GB": "session timed out",
+            "en-US": "session timed out"
         }
     },
 ``` 
@@ -50,7 +50,7 @@ The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out 
 ### Object
 
 
-The object defines the item that the user has logged out of.  A [Jisc specific extension](common_statements.md#jisc_extensions) details that it is a VLE that is being logged out of 
+The object defines the item that the user has timed out of.  A [Jisc specific extension](common_statements.md#jisc_extensions) details that it is a VLE that is being logged out of 
 ``` javascript
 
 "object": {

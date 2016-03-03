@@ -47,8 +47,8 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 ```
 ### Object
 
-The object defines the item that the user hits when they login into a VLE.  
-A [Jisc specific extension](/common_statements.md#jisc_extensions) details that it is a VLE that is being logged into 
+The object defines the item that the user hits when they login into a VLE.   A [Jisc specific extension](/common_statements.md#jisc_extensions) details that it is a VLE that is being logged into 
+
 ``` javascript
 
 "object": {
@@ -74,6 +74,6 @@ A [Jisc specific extension](/common_statements.md#jisc_extensions) details that 
 ```
 
 ### Complete Specific Examples
-[Moodle](vle/Moodle/login.js)
+[Moodle Login Example](vle/Moodle/login.js)
 
-[Blackboard](vle/blackboard/loggedin.js)
+[Blackboard Login Example](vle/blackboard/loggedin.js)

@@ -23,7 +23,9 @@ If the need arises, particular versions will get their own branches, but until t
 These are the currently platform independent documented recipes:
 
 * [Logged in] (recipes/login.md)
+* [Logged out] (recipes/logout.md)
 * [Module-viewed] (recipes/Module-View.md)
+
 
 ## Specific VLE examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)

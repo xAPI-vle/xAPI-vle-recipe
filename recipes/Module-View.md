@@ -5,7 +5,7 @@ Revision: Working Towards 1.0
 An activity that shows that a user has viewed a vle resource such as a Moodle Module or Blackboard building block (eg a page as identified by its url)
 
 ### Actor
-[Accounts](common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
 ``` Javascript
 {
     "version": "1.0.0",
@@ -21,7 +21,7 @@ An activity that shows that a user has viewed a vle resource such as a Moodle Mo
 
 ##Verb:
 
-The Verb,[viewed](vocabulary.md#verbs) denotes the action of the user's browser or app requesting the resource that the user wishes to view.
+The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser or app requesting the resource that the user wishes to view.
 
 ``` javascript
 "verb": {
@@ -40,8 +40,7 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 - http://xapi.jisc.ac.uk/define/vle/page
 - http://xapi.jisc.ac.uk/define/vle/quiz
 
-	 
-###Example
+
 ``` javascript
 "object": {
 	"objectType": "Activity",
@@ -58,5 +57,6 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 ```
 
 ### Complete Specific Examples
-[Moodle](Moodle/moduleview.js)
-[Blackboard](blackboard/loggedin.js)
+[Moodle Example](/vle/Moodle/moduleview.js)
+
+[Blackboard Example](/vle/blackboard/loggedin.js)
