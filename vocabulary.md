@@ -5,7 +5,8 @@ The following terms are in use in the Jisc LA recipes.
 
 | Label  	   | Description | IRI  | Example Usage
 | ------------- | ------------- |--------|----|
-|  Log in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|['Logged in' verb](login.md#verb) |
+|  Logged in | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|['Logged in' verb](login.md#verb) |
+|  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|['Logged out' verb](logout.md#verb) |
 |  Viewed | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed] (http://id.tincanapi.com/verb/viewed) | ['Module Viewed' verb](Module-View.md#verb)
 
 
@@ -34,7 +35,7 @@ The following terms are in use in the Jisc LA recipes.
 
 
 ## Jisc extensions
-The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Not that the namespace URI may change.
+The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Note that the namespace URI may change.
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|

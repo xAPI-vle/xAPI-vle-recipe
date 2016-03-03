@@ -17,10 +17,7 @@ If the need arises, particular versions will get their own branches, but until t
 * [Vocabulary] (vocabulary.md)
 * [Common Structures] (common_statements.md)
 
-
 # Recipes
-
-## Platform independent
 
 ## VLE examples
 These are the currently platform independent documented recipes:
