@@ -24,7 +24,7 @@ These are the currently platform independent documented recipes:
 
 * [Logged in] (recipes/login.md)
 * [Logged out] (recipes/logout.md)
-* [Module-viewed] (recipes/Module-View.md)
+* [VLE resource viewed] (recipes/Module-View.md)
 * [Session timeout] (recipes/Session-timeout.md)
 
 ## Specific VLE examples
