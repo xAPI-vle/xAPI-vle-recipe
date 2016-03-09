@@ -17,16 +17,15 @@ If the need arises, particular versions will get their own branches, but until t
 * [Vocabulary] (vocabulary.md)
 * [Common Structures] (common_statements.md)
 
-
 # Recipes
-
-## Platform independent
 
 ## VLE examples
 These are the currently platform independent documented recipes:
 
-* [Logged in] (login.md)
-* [Module-viewed] (Module-View.md)
+* [Logged in] (recipes/login.md)
+* [Logged out] (recipes/logout.md)
+* [VLE resource viewed] (recipes/Module-View.md)
+* [Session timeout] (recipes/Session-timeout.md)
 
 ## Specific VLE examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
