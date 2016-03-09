@@ -28,6 +28,11 @@ Context provides information about the system returning the information it gives
         "version": "2.9.1",      //  The VLE Version number
         "ip": "10.1.1.2",        //  The ip address of the system emitting the event
         "extension": {        //  Information on the extension or plugin emitting the event
+        
+        "http://xapi.jisc.ac.uk/extensions/courseArea": {							//   parent VLE area for activity
+                    "id": "https://courses.alpha.jisc.ac.uk/course/view.php?id=2194"
+                },
+        
 		"http://lrs.learninglocker.net/define/extensions/info": {
                             "https://moodle.org/": "2.8.7+ (Build: 20150730)",
                             "https://github.com/LearningLocker/Moodle-Log-Expander": "0.4.2\n",
