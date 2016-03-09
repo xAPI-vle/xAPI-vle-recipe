@@ -35,7 +35,8 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 ``` 
 ### Context
 
-[Context identifies](/common_statements.md#context) the platform that is being logged into, Moodle in this example.  Plugin specific extensions are optional and not part of the core recipe.
+[Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
+Plugin specific extensions are optional and not part of the core recipe.
 
 ``` javascript
 "context": {

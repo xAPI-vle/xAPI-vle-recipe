@@ -23,6 +23,7 @@ Context provides information about the system returning the information it gives
 
  ```Javascript
 	"context": { 
+		"registration": "<Temporary>",         //   local session identifier
         "platform": "Moodle",         //  The VLE Platform
         "version": "2.9.1",      //  The VLE Version number
         "ip": "10.1.1.2",        //  The ip address of the system emitting the event
