@@ -6,7 +6,9 @@ This activity records a user logging in to a VLE.
 ## Definition
 ### Actor
 
-[Account](/common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Account](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant . Candidates include: vle id, the login name, and an other field with a student id in.
+
+
 ``` Javascript
 {
     "version": "1.0.0",
