@@ -27,7 +27,8 @@ Context provides information about the system returning the information it gives
         "platform": "Moodle",         //  The VLE Platform
         "version": "2.9.1",      //  The VLE Version number
         "extensions": {
-        	"http://xapi.jisc.ac.uk/extension/courseArea": "https://courses.alpha.jisc.ac.uk/course/view.php?id=2194"
+        	"http://xapi.jisc.ac.uk/extension/courseArea": "https://courses.alpha.jisc.ac.uk/course/view.php?id=2194", //http://xapi.jisc.ac.uk/extensions/courseArea 
+        	"http://id.tincanapi.com/extension/ip-address": "10.1.1.2"  //  The ip address of the system emitting the event
      	 }.
         
         "extension": {        //  Information on the extension or plugin emitting the event
