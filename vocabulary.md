@@ -42,7 +42,7 @@ The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Note
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
-| Umbrella course area |  Umbrella course area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
+| Umbrella parent area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/parentArea | |
 | VLE | A virtual learning environment              | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object](login.md#object)|
 | VLE page   |   A page in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object](Module-View.md#object) |
 | VLE quiz   | A quiz in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object](Module-View.md#object) |
