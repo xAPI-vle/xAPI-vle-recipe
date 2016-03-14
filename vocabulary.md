@@ -48,6 +48,7 @@ The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Note
 | VLE quiz   | A quiz in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object](Module-View.md#object) |
 | VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | [Blackbord course content access](vle/blackboard/course_content_access/js)|
 | Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in - Object](login.md#object) Logged In Object |
+| Session id |  local session id       | http://xapi.jisc.ac.uk/extension/sessionId | |
 
 
 
