@@ -23,7 +23,6 @@ Context provides information about the system returning the information it gives
 
  ```Javascript
 	"context": { 
-		"registration": "<Temporary>",         //   local session identifier
         "platform": "Moodle",         //  The VLE Platform
         "version": "2.9.1",      //  The VLE Version number
         "extensions": {
@@ -38,3 +37,5 @@ Context provides information about the system returning the information it gives
 					}
 			}
  ```  
+
+
