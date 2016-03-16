@@ -37,12 +37,17 @@ The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out 
 
 ### Context
 
-[Context identifies](/common_statements.md#verbs) the platform that is being logged out of,  Moodle in this example.  Plugin specific extensions are optional and not part of the core recipe
+[Context identifies](/common_statements.md#verbs) the platform that is being logged out of,  Moodle in this example. 
+[IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.
+
+Plugin specific extensions are optional and not part of the core recipe.
+
 
 ``` javascript
 "context": {
         "platform": "Moodle",
         "extensions": {
+        "http://id.tincanapi.com/extension/ip-address":"10.3.3.48"
             }
         }
     },

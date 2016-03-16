@@ -38,12 +38,16 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 ### Context
 
 [Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
+[IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.
+
 Plugin specific extensions are optional and not part of the core recipe.
+
 
 ``` javascript
 "context": {
         "platform": "Moodle",
         "extensions": {
+        "http://id.tincanapi.com/extension/ip-address":"10.3.3.48"
             }
         }
     },
