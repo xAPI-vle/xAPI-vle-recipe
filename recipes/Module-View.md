@@ -5,7 +5,8 @@ Revision: Working Towards 1.0
 An activity that shows that a user has viewed a vle resource such as a Moodle Module or Blackboard building block (eg a page as identified by its url)
 
 ### Actor
-[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant . Candidates include: vle id, the login name, and an other field with a student id in.
+
 ``` Javascript
 {
     "version": "1.0.0",

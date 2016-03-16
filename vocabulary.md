@@ -42,12 +42,17 @@ The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Note
 
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
+| Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
 | VLE | A virtual learning environment              | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object](login.md#object)|
 | VLE page   |   A page in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object](Module-View.md#object) |
 | VLE quiz   | A quiz in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object](Module-View.md#object) |
-| VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | [[Blackbord course content access] (vle/blackboard/course_content_access/js)|
-| Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in - Object] (login.md#object) Logged In Object |
+| VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | [Blackbord course content access](vle/blackboard/course_content_access/js)|
+| Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in - Object](login.md#object) Logged In Object |
+| Session id |  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
 
+
+
+ 
 ##Blackboard
 
 ### Verbs

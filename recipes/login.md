@@ -6,7 +6,9 @@ This activity records a user logging in to a VLE.
 ## Definition
 ### Actor
 
-[Account](/common_statements.md#actor.account) is used as the identifer.  Account/Name is the internal identifier used by the VLE.
+[Account](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant . Candidates include: vle id, the login name, and an other field with a student id in.
+
+
 ``` Javascript
 {
     "version": "1.0.0",
@@ -35,7 +37,8 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 ``` 
 ### Context
 
-[Context identifies](/common_statements.md#context) the platform that is being logged into, Moodle in this example.  Plugin specific extensions are optional and not part of the core recipe.
+[Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
+Plugin specific extensions are optional and not part of the core recipe.
 
 ``` javascript
 "context": {
