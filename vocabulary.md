@@ -43,12 +43,20 @@ The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Note
 | Label  		| Description   | IRI    | Example Usage
 | ------------- | ------------- |------------------------------------------------------|----|
 | Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
-| VLE | A virtual learning environment              | http://xapi.jisc.ac.uk/define/extensions/vle | [Logged in - Object](recipes/login.md#object)|
-| VLE page   |   A page in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/page | [Module-View - Object](recipes/Module-View.md#object) |
-| VLE quiz   | A quiz in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | [Module-View - Object](recipes/Module-View.md#object) |
-| VLE content   |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | [Blackbord course content access](vle/blackboard/course_content_access.js)|
 | Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in - Object](recipes/login.md#object)|
 | Session id |  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
+
+##Interface Mappings
+
+| Label  		 | Description   | IRI    | Blackboard Example | Moodle Example |
+| VLE        	 | A virtual learning environment              | http://xapi.jisc.ac.uk/define/extensions/vle | | |
+| VLE page   	 |   A page in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/page | | |
+| VLE quiz   	 | A quiz in the virtual learning environment                  | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | | |
+| VLE forum  	 | A VLE Forum/discussion board               | http://xapi.jisc.ac.uk/define/extensions/vle/forum | | |
+| VLE content    |               | http://xapi.jisc.ac.uk/define/extensions/vle/content | | |
+| External URL   | An external URL                | http://xapi.jisc.ac.uk/define/extensions/externalURL | | | 
+| Word Document  | A word document                | http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument | | |
+
 
 
 
