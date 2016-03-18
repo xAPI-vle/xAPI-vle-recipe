@@ -67,9 +67,13 @@ Plugin specific extensions are optional and not part of the core recipe.
 Needs to identify what was requested. A list of valid values can be found at [examples of object.definition.extensions](vocabulary#Object.definition.extension)
 
 ### Example Valid Values:
-- http://xapi.jisc.ac.uk/define/vle/page [blackboard example]() [page example on University of Jisc](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)
-- http://xapi.jisc.ac.uk/define/vle/quiz [blackboard example]() [Quiz example on University of Jisc](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)
-- http://xapi.jisc.ac.uk/define/url
+- http://xapi.jisc.ac.uk/define/extensions/vle/page [ToDo blackboard example](https://jisc.blackboard.com/webapps/blackboard/content/listContent.jsp?content_id=215&course_id=144) [A page on University of Jisc Moodle instance](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)
+- http://xapi.jisc.ac.uk/define/extensions/vle/quiz [ToDo blackboard example]() [A quiz on Moodle University of Jisc](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)
+- http://xapi.jisc.ac.uk/define/extensions/vle/forum [Blackboard discussion board on Moodle University of Jisc](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view) [A forum on Moodle University of Jisc](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)
+- http://xapi.jisc.ac.uk/define/extensions/externalURL 
+- http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument 
+- http://xapi.jisc.ac.uk/define/extensions/documents/exceldDocument 
+
 
 
 ``` javascript
