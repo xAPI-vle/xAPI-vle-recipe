@@ -6,24 +6,26 @@
 
 * "timestamp": time of when the event occurred in BBLearn
 * "actor"."name": student first name and last name
-* "actor"."account"."name": student username, unique for specific BBLearn domain
+* "actor"."account"."name": student username/user_id, unique for specific BBLearn domain
 * "context": same context object used by all recipes 
 
 ###Logged in
 
 Student logged in to Blackboard.
 
-* [loggedin.js] (loggedin.js)
+* [loggedin.json] (loggedin.json)
 
 ###Logged out
+
 Student manually logged out from BBLearn
 
-* [loggedout.js] (loggedout.js)
+* [loggedout.json] (loggedout.json)
 
 ###Session timeout
+
 Student session expired
 
-* [session_timeout.js] (session_timeout.js)
+* [session_timeout.json] (session_timeout.json)
 
 ###Course View
 
@@ -36,3 +38,27 @@ Student accesses course home page
 Student accesses course content
 
 * [course_content_access.js] (course_content_access.js)
+
+###Attempt started
+
+Student starts an attempt for assignment/assessment/test/survey
+
+* [attempt_started.json] (attempt_started.json)
+
+###Attempt completed
+
+Student completed an attempt for assignment/assessment/test/survey
+
+* [attempt_started.json] (attempt_started.json)
+
+###Assignment submitted
+
+Student submitted an assignment
+
+* [assignment_submitted.json] (assignment_submitted.json)
+
+###Assignment graded
+
+Student assignment graded
+
+* [asssignment_graded.json] (asssignment_graded.json)

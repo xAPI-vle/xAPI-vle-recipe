@@ -11,10 +11,17 @@
         }
     },
     "verb":{
-        "id":"http://adlnet.gov/expapi/verbs/completed",
+        "id":"http://www.tincanapi.co.uk/verbs/evaluated",
         "display":{
-            "en-US":"completed"
+            "en-GB":"evaluated",
+            "en-US":"evaluated"
         }
+    },
+    "result":{
+        "score":{
+            "raw":6
+        },
+        "completion":true
     },
     "object":{
         "objectType":"Activity",
