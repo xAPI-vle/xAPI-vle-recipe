@@ -38,8 +38,9 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
 Needs to identify what was requested. A list of valid values can be found at [examples of object.definition.extensions](vocabulary#Object.definition.extension)
 
 ### Example Valid Values:
-- http://xapi.jisc.ac.uk/define/vle/page
-- http://xapi.jisc.ac.uk/define/vle/quiz
+- http://xapi.jisc.ac.uk/define/vle/page [blackboard example]() [Moodle Example]()
+- http://xapi.jisc.ac.uk/define/vle/quiz [blackboard example]() [Example on University of Jisc](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)
+- http://xapi.jisc.ac.uk/define/url
 
 
 ``` javascript
