@@ -36,9 +36,11 @@ The Verb,[abandoned](/vocabulary.md#verbs) describes the action of logging out o
 ``` 
 
 ### Context
+[Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
 
-[Context identifies](/common_statements.md) the platform that is being logged out of. 
 [IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.
+
+SessionId is the VLE session Id
 
 Plugin specific extensions are optional and not part of the core recipe.
 
@@ -46,11 +48,14 @@ Plugin specific extensions are optional and not part of the core recipe.
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": {
-        "http://id.tincanapi.com/extension/ip-address":"10.3.3.48"
-            }
+        "extensions": 
+ 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
+                "sessionId": "32456891"  
+             },
+            "http://id.tincanapi.com/extensions/ip-address": {  
+                "ip-address":"10.3.3.48"
+              }
         }
-    },
 ```
 
 ### Object
