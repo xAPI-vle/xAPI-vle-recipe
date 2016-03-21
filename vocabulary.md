@@ -1,5 +1,5 @@
 # JISC Learning Analytics Vocabulary
-The following terms are in use in the Jisc LA recipes.
+The following terms are in use in the Jisc learning analytics recipes.
 NOTE: The xapi.jisc.ac.uk namespace URI may change.
 
 ### Verb
@@ -8,7 +8,7 @@ Usage:
 
 - [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
 
-| Label  	   | Description | IRI  | Repository Example 
+| Label  	   | Description | IRI  | Recipe Example 
 | -------------| ----------- |------|----|
 |  Logged in  | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|[Logged in](recipes/login.md#verb) |
 |  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|[Logged out](recipes/logout.md#verb) |
@@ -24,10 +24,10 @@ Usage:
 
 - [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
 
-| Label  		| Description   | IRI    | Repository Usage
+| Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |--------|----------------|
 | Application   | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|[Logged in](recipes/login.md#complete_example) |
-| Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
+| Application Type |  Identifies the genre of software application  | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
 | Module        | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | [Module-View](recipes/Module-View.md#object) |
 
 
@@ -36,10 +36,10 @@ Usage:
 - object.definition.type
 - object.definition.extensions.<extension>: 
 
-| Label  		| Description                    | IRI    | Repository Example  | Moodle Example | Blackboard Example
+| Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
 | VLE        	| A virtual learning environment | http://xapi.jisc.ac.uk/define/extensions/vle       |     | |
-| VLE content   |                                | http://xapi.jisc.ac.uk/define/extensions/vle/content | | |
+| VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/define/extensions/vle/content | | |
 | VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/define/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
 | VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/define/extensions/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
 | VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/define/extensions/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
@@ -55,7 +55,7 @@ Usage:
 1.[Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
 
 
-| Label  		| Description   | IRI    | Repository Usage
+| Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |------------------------------------------------------|----|
 | Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
 | Session id |  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
