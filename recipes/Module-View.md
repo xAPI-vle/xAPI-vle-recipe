@@ -81,7 +81,7 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 	"id": "http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13"   	 	//  unique id or url of the item being logged into
 	"definition": {
 		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  definition type as above
-		 "name": { "en": "Sample page" },			   //  name of item as returned by VLE
+		"name": { "en": "Sample page" },			   //  name of item as returned by VLE
 		"description": { "en": "sample page"	 } //  description of item as returned by VLE
 		"extensions": {
     				"http://xapi.jisc.ac.uk/extensions/moduleType":"http://xapi.jisc.ac.uk/define/vle/page",
