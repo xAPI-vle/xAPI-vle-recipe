@@ -49,6 +49,7 @@ The following terms a newly minted in the http://xapi.jisc.ac.uk namespace. Note
 ##Interface Mappings
 
 | Label  		 | Description   | IRI    | Blackboard Example | Moodle Example |
+| ------------- | ------------- |------------------------------------------------------|----|----|
 | VLE        	 | A virtual learning environment              | http://xapi.jisc.ac.uk/define/extensions/vle | | |
 | VLE page   	 |   A page in the virtual learning environment                | http://xapi.jisc.ac.uk/define/extensions/vle/page | | |
 | VLE quiz   	 | A quiz in the virtual learning environment                  | http://xapi.jisc.ac.uk/define/extensions/vle/quiz | | |
