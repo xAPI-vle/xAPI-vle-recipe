@@ -6,9 +6,9 @@ NOTE: The xapi.jisc.ac.uk namespace URI may change.
 
 Usage:
 
-1. [verb.id -Corresponds to a Verb definition.](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb)
+1. [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
 
-| Label  	   | Description | IRI  | Recipe Example 
+| Label  	   | Description | IRI  | Repository Example 
 | -------------| ----------- |------|----|
 |  Logged in  | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|[Logged in](recipes/login.md#verb) |
 |  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|[Logged out](recipes/logout.md#verb) |
@@ -21,20 +21,23 @@ Usage:
 
 #### Object Definition Type
 Usage:
-1. [object.definition.type -The type of Activity.](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition)
 
-| Label  		| Description   | IRI    | Example Usage
+1. [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
+
+| Label  		| Description   | IRI    | Repository Usage
 | ------------- | ------------- |--------|----------------|
 | Application   | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|[Logged in](recipes/login.md#complete_example) |
 | Module        | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | [Module-View](recipes/Module-View.md#object) |
 
 
 Usage:
+
 1. object.definition.type
+
 2. object.definition.extensions.<extension>: 
 
-| Label  		| Description | IRI  | Recipe Example  | Moodle Example | Blackboard Example
-| ------------- | -------------------------------|--------|----|
+| Label  		| Description                    | IRI    | Repository Example  | Moodle Example | Blackboard Example
+| ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
 | VLE        	| A virtual learning environment | http://xapi.jisc.ac.uk/define/extensions/vle       |     | |
 | VLE content   |                                | http://xapi.jisc.ac.uk/define/extensions/vle/content | | |
 | VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/define/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
@@ -47,11 +50,12 @@ Usage:
 
 ### Context
 
-Usage
+Usage:
+
 1.[Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
 
 
-| Label  		| Description   | IRI    | Example Usage
+| Label  		| Description   | IRI    | Repository Usage
 | ------------- | ------------- |------------------------------------------------------|----|
 | Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
 | Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
