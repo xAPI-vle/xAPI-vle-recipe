@@ -6,7 +6,7 @@ NOTE: The xapi.jisc.ac.uk namespace URI may change.
 
 Usage:
 
-1. [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
+- [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
 
 | Label  	   | Description | IRI  | Repository Example 
 | -------------| ----------- |------|----|
@@ -22,19 +22,19 @@ Usage:
 #### Object Definition Type
 Usage:
 
-1. [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
+- [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
 
 | Label  		| Description   | IRI    | Repository Usage
 | ------------- | ------------- |--------|----------------|
 | Application   | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|[Logged in](recipes/login.md#complete_example) |
+| Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
 | Module        | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | [Module-View](recipes/Module-View.md#object) |
 
 
 Usage:
 
-1. object.definition.type
-
-2. object.definition.extensions.<extension>: 
+- object.definition.type
+- object.definition.extensions.<extension>: 
 
 | Label  		| Description                    | IRI    | Repository Example  | Moodle Example | Blackboard Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
@@ -58,6 +58,6 @@ Usage:
 | Label  		| Description   | IRI    | Repository Usage
 | ------------- | ------------- |------------------------------------------------------|----|
 | Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
-| Application Type |            | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
 | Session id |  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
+| IP address|  client's real address location on internet     | http://id.tincanapi.com/extension/ip-address | |
 
