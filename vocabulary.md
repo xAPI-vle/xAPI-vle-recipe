@@ -5,6 +5,7 @@ NOTE: The xapi.jisc.ac.uk namespace URI may change.
 ### Verb
 
 Usage:
+
 1. [verb.id -Corresponds to a Verb definition.](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb)
 
 | Label  	   | Description | IRI  | Recipe Example 
