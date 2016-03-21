@@ -1,7 +1,7 @@
 #Common Statement Properties
 The following are statement level properties that are used in several recipes.
 
-### account.actor
+### actor
 Account is the internal identifier used by the VLE.
 
 ``` Javascript
@@ -9,9 +9,9 @@ Account is the internal identifier used by the VLE.
     "version": "1.0.0",
     "actor": {
         "objectType": "Agent",
-        "name": "madmin",
+        "name": "Test",
         "account": {
-            "name": "2",
+            "name": "Test",
             "homePage": "https://courses.alpha.jisc.ac.uk/moodle"
         }
     },
