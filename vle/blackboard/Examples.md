@@ -31,13 +31,13 @@ Student session expired
 
 Student accesses course home page
 
-* [course_access.js] (course_access.js)
+* [course_access.json] (course_access.json)
 
 ###Course Content View
 
 Student accesses course content
 
-* [course_content_access.js] (course_content_access.js)
+* [course_content_access.json] (course_content_access.json)
 
 ###Attempt started
 
