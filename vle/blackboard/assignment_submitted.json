@@ -27,41 +27,46 @@
             "description":{
                 "en-US":"Course 47 Assignment description"
             }
+        },
+        "extensions":{
+            "http://lrs.learninglocker.net/define/extensions/blackboard_module":{
+                "duedate":"2016-02-05T17:59:45.000Z"
+            }
         }
     },
-    "context": {
-		"contextActivities":{
-            "grouping":[  
-            {
-                "objectType":"Activity",
-                "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1",
-                "definition":{
-                    "type":"http://adlnet.gov/expapi/activities/course",
-                    "name":{
-                        "en-US":"xAPI Basics"
-                    },
-                    "description":{
-                        "en-US":"xAPI Basics course for Learning Analytics enthusiasts"
+    "context":{
+        "contextActivities":{
+            "grouping":[
+                {
+                    "objectType":"Activity",
+                    "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1",
+                    "definition":{
+                        "type":"http://adlnet.gov/expapi/activities/course",
+                        "name":{
+                            "en-US":"xAPI Basics"
+                        },
+                        "description":{
+                            "en-US":"xAPI Basics course for Learning Analytics enthusiasts"
+                        }
                     }
                 }
-            }
-          ]
+            ]
         },
-        "platform": "Blackboard",
-        "extensions": {
-       		"http://xapi.jisc.ac.uk/extensions/courseArea": {
+        "platform":"Blackboard",
+        "extensions":{
+            "http://xapi.jisc.ac.uk/extensions/courseArea":{
                 "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1"
-             },
-            "http://xapi.jisc.ac.uk/extensions/sessionId": {
-                "sessionId": "32456891"
-             },
-             "http://id.tincanapi.com/extension/ip-address": {
+            },
+            "http://xapi.jisc.ac.uk/extensions/sessionId":{
+                "sessionId":"32456891"
+            },
+            "http://id.tincanapi.com/extension/ip-address":{
                 "ip-address":"10.3.3.48"
-             },
-            "http://lrs.learninglocker.net/define/extensions/info": {
-                "https://jisc.blackboard.com": "9.1.201410",
-                "https://jisc.blackboard.com/webapps/bbc-xAPI-BBLEARN/": "1.0.0"
-            }  
+            },
+            "http://lrs.learninglocker.net/define/extensions/info":{
+                "https://jisc.blackboard.com":"9.1.201410",
+                "https://jisc.blackboard.com/webapps/bbc-xAPI-BBLEARN/":"1.0.0"
+            }
         }
     }
 }
