@@ -6,7 +6,7 @@
         "objectType":"Agent",
         "name":"test1 test1",
         "account":{
-            "homePage":"https://services-uswest.skytap.com:27219",
+            "homePage":"https://jisc.blackboard.com",
             "name":"test1"
         }
     },
@@ -18,7 +18,7 @@
     },
     "object":{
         "objectType":"Activity",
-        "id":"https://services-uswest.skytap.com:27219/webapps/gradebook/do/instructor/enterGradeCenter?course_id=_47_1&cvid=fullGC#",
+        "id":"https://jisc.blackboard.com/webapps/gradebook/do/instructor/enterGradeCenter?course_id=_47_1&cvid=fullGC#",
         "definition":{
             "type":"http://adlnet.gov/expapi/activities/module",
             "name":{
@@ -26,28 +26,47 @@
             },
             "description":{
                 "en-US":"Course 47 Assignment description"
-            },
-            "extensions":{
-                "http://adlnet.gov/expapi/activities/course":{
-                    "course_id":"47",
-                    "name":"NORMAL_TEST_004"
-                }
+            }
+        },
+        "extensions":{
+            "http://lrs.learninglocker.net/define/extensions/blackboard_module":{
+                "duedate":"2016-02-05T17:59:45.000Z"
             }
         }
     },
     "context":{
+        "contextActivities":{
+            "grouping":[
+                {
+                    "objectType":"Activity",
+                    "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1",
+                    "definition":{
+                        "type":"http://adlnet.gov/expapi/activities/course",
+                        "name":{
+                            "en-US":"xAPI Basics"
+                        },
+                        "description":{
+                            "en-US":"xAPI Basics course for Learning Analytics enthusiasts"
+                        }
+                    }
+                }
+            ]
+        },
         "platform":"Blackboard",
         "extensions":{
+            "http://xapi.jisc.ac.uk/extensions/courseArea":{
+                "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1"
+            },
+            "http://xapi.jisc.ac.uk/extensions/sessionId":{
+                "sessionId":"32456891"
+            },
+            "http://id.tincanapi.com/extension/ip-address":{
+                "ip-address":"10.3.3.48"
+            },
             "http://lrs.learninglocker.net/define/extensions/info":{
-                "https://services-uswest.skytap.com:27219":"9.1.201410",
-                "https://services-uswest.skytap.com:27219/webapps/bbc-xAPI-BBLEARN/":"1.0.0",
-                "ip":"192.168.0.1"
+                "https://jisc.blackboard.com":"9.1.201410",
+                "https://jisc.blackboard.com/webapps/bbc-xAPI-BBLEARN/":"1.0.0"
             }
         }
-    },
-    "authority":{
-        "objectType":"Agent",
-        "name":"BB Learn",
-        "mbox":"mailto:hello@learninglocker.net"
     }
 }

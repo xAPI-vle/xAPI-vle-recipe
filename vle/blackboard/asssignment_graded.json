@@ -11,14 +11,15 @@
         }
     },
     "verb":{
-        "id":"http://adlnet.gov/expapi/verbs/completed",
+        "id":"http://www.tincanapi.co.uk/verbs/evaluated",
         "display":{
-            "en-US":"completed"
+            "en-GB":"evaluated",
+            "en-US":"evaluated"
         }
     },
     "result":{
         "score":{
-            "raw":1
+            "raw":6
         },
         "completion":true
     },
@@ -28,11 +29,16 @@
         "definition":{
             "type":"http://adlnet.gov/expapi/activities/module",
             "name":{
-                "en-US":"Test1"
+                "en-US":"Course 47 Assignment"
             },
             "description":{
-                "en-US":"Test1"
+                "en-US":"Course 47 Assignment description"
             }
+        },
+        "extensions": {
+       		"http://lrs.learninglocker.net/define/extensions/blackboard_module":{
+                "duedate":"2016-02-05T17:59:45.000Z"
+             }
         }
     },
     "context": {
