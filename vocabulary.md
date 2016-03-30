@@ -14,7 +14,8 @@ Usage:
 |  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|[Logged out](recipes/logout.md#verb) |
 |  Viewed     | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed](http://id.tincanapi.com/verb/viewed) | [Object Viewed](recipes/Module-View.md#verb) |
 |  Session timed out | Indicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure.  |	[https://w3id.org/xapi/adl/verbs/abandoned] (https://w3id.org/xapi/adl/verbs/abandoned) | [Object Viewed](recipes/Module-View.md#verb) |
-|  Completed |  Completing an activity - finishing in its entirety. .   |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](vle/blackboard/assignment_submitted.json) |
+|  Completed |  Completing an activity - finishing in its entirety  |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](recipes/assigment-submitted) |
+|  Evaluated |  Evaluated a learning activity |	[http://www.tincanapi.co.uk/verbs/evaluated (http://www.tincanapi.co.uk/verbs/evaluated) | [Assignment Evaluated](recipes/assigment-evaluated.md#verb) |
 
 
 ### Object
