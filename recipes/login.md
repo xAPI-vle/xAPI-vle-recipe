@@ -38,16 +38,29 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 ### Context
 
 [Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
+
+[IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.
+
+SessionId is the VLE session Id
+
 Plugin specific extensions are optional and not part of the core recipe.
+
 
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": {
-            }
+        "extensions": 
+ 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
+                "sessionId": "32456891"  
+             },
+            "http://id.tincanapi.com/extensions/ip-address": {  
+                "ip-address":"10.3.3.48"
+              }
         }
-    },
 ```
+
+
+
 ### Object
 
 The object defines the item that the user hits when they login into a VLE.   A [Jisc specific extension](/common_statements.md#jisc_extensions) details that it is a VLE that is being logged into 
