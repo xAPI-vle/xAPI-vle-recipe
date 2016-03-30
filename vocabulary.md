@@ -58,6 +58,7 @@ Usage:
 | Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |------------------------------------------------------|----|
 | Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
-| Session id |  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
-| IP address|  client's real address location on internet     | http://id.tincanapi.com/extension/ip-address | |
+| Session id 	|  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
+| IP address	|  client's real address location on internet     | http://id.tincanapi.com/extension/ip-address | |
+| Recipe Version|  Version of Recipe used    | http://xapi.jisc.ac.uk/extensions/recipeVersion | |
 
