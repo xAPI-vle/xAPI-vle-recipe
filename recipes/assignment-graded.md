@@ -114,4 +114,4 @@ Plugin specific extensions are optional and not part of the core recipe.
 
 
 ### Complete VLE Specific Examples
-[Blackboard Login Example](/vle/blackboard/asssignment_graded.json)
+[Blackboard Example](/vle/blackboard/asssignment_graded.json)
