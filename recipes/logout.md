@@ -92,4 +92,4 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
 
 Moodle (ToDo)
 
-[Blackboard](blackboard/loggedout.js)
+[Blackboard](blackboard/loggedout.json)
