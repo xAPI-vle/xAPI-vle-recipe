@@ -84,10 +84,10 @@ Plugin specific extensions are optional and not part of the core recipe.
                     "definition":{
                         "type":"http://adlnet.gov/expapi/activities/course",
                         "name":{
-                            "en-GB":"xAPI Basics"
+                            "en":"xAPI Basics"
                         },
                         "description":{
-                            "en-GB":"xAPI Basics course for Learning Analytics enthusiasts"
+                            "en":"xAPI Basics course for Learning Analytics enthusiasts"
                         }
                     }
                 }
