@@ -70,3 +70,7 @@ Usage:
 | IP address	|  client's real address location on internet     | http://id.tincanapi.com/extension/ip-address | |
 | Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/extensions/recipeVersion | |
 
+1.Context.extensions.courseArea
+| Label  		| Description   | IRI    | Recipe example
+| ------------- | ------------- |------------------------------------------------------|----|
+| VLE Module ID |  [Entity that connects a course area in a VLE with a module](https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md)         | http://xapi.jisc.ac.uk/extensions/vle_mod_id | |
