@@ -48,6 +48,13 @@ Usage:
 | Module type   | Moodle                         | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](recipes/Module-View.md#object)|
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/define/extensions/externalURL | | | 
 
+Usage:
+- [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those elements 
+| Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
+| ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
+| Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/extensions/duedate      |     | |
+
+
 
 ### Context
 

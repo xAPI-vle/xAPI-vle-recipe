@@ -42,7 +42,8 @@ The Verb, [evaluated](/vocabulary.md#verbs) describes the action of evaluating a
 ``` 
 
 ### Object
-The object defines the activity that has been evaluated.   
+The object defines the activity that has been evaluated. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.
+
 
 ``` javascript
 
@@ -58,6 +59,10 @@ The object defines the activity that has been evaluated.
 			"description":{
 				"en":"Course Assignment description"
 				}
+			},
+			"extensions":{
+				"http://xapi.jisc.ac.uk/extensions/duedate":{
+				"duedate":"2016-02-05T17:59:45.000Z"
 			}
 		}
 		
