@@ -1,5 +1,5 @@
 # VLE User Logged In Recipe
-Revision: Working Towards 1.0
+Revision: 1.0
 
 ## Purpose
 This activity records a user logging in to a VLE.
@@ -30,8 +30,7 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedin/",
         "display": {
-            "en-GB": "logged in to",
-            "en-US": "logged in to"
+            "en"
         }
     },
 ``` 
@@ -73,12 +72,10 @@ The object defines the item that the user hits when they login into a VLE.   A [
         "definition": {
             "type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "description": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {

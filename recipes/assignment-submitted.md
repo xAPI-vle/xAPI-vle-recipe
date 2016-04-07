@@ -30,8 +30,7 @@ The Verb, [completed](/vocabulary.md#verbs) describes the action of completing a
 "verb": {
         "id": "http://adlnet.gov/expapi/verbs/completed",
         "display": {
-            "en-GB": "completed",
-            "en-US": "completed"
+            "en": "completed"
         }
     },
 ``` 
@@ -49,10 +48,10 @@ The object defines the activity that has been completed.
 		"definition":{
 			"type":"http://adlnet.gov/expapi/activities/module",
 			"name":{
-				"en-US":"Course Assignment"
+				"en":"Course Assignment"
 			},
 			"description":{
-				"en-US":"Course Assignment description"
+				"en":"Course Assignment description"
 				}
 			}
 		}
@@ -85,10 +84,10 @@ Plugin specific extensions are optional and not part of the core recipe.
                     "definition":{
                         "type":"http://adlnet.gov/expapi/activities/course",
                         "name":{
-                            "en-US":"xAPI Basics"
+                            "en-GB":"xAPI Basics"
                         },
                         "description":{
-                            "en-US":"xAPI Basics course for Learning Analytics enthusiasts"
+                            "en-GB":"xAPI Basics course for Learning Analytics enthusiasts"
                         }
                     }
                 }

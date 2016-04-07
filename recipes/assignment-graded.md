@@ -30,9 +30,8 @@ The Verb, [evaluated](/vocabulary.md#verbs) describes the action of evaluating a
  "verb":{
         "id":"http://www.tincanapi.co.uk/verbs/evaluated",
         "display":{
-            "en-GB":"evaluated",
-            "en-US":"evaluated"
-        }
+            "en":"evaluated"
+         }
     },
     "result":{
         "score":{
@@ -54,10 +53,10 @@ The object defines the activity that has been evaluated.
 		"definition":{
 			"type":"http://adlnet.gov/expapi/activities/module",
 			"name":{
-				"en-US":"Course Assignment"
+				"en":"Course Assignment"
 			},
 			"description":{
-				"en-US":"Course Assignment description"
+				"en":"Course Assignment description"
 				}
 			}
 		}
@@ -91,10 +90,10 @@ Plugin specific extensions are optional and not part of the core recipe.
                     "definition":{
                         "type":"http://adlnet.gov/expapi/activities/course",
                         "name":{
-                            "en-US":"xAPI Basics"
+                            "en":"xAPI Basics"
                         },
                         "description":{
-                            "en-US":"xAPI Basics course for Learning Analytics enthusiasts"
+                            "en":"xAPI Basics course for Learning Analytics enthusiasts"
                         }
                     }
                 }
