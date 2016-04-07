@@ -1,71 +1,60 @@
+
 {
     "version": "1.0.0",
     "actor": {
         "objectType": "Agent",
-        "name": "madmin",
+        "name": "stutest",
         "account": {
-            "name": "2",
-            "homePage": "https://courses.alpha.jisc.ac.uk/moodle"
+            "name": "stutest",
+            "homePage": "http://localhost:8080/moodle/moodle"
         }
     },
     "verb": {
         "id": "http://id.tincanapi.com/verb/viewed",
         "display": {
-            "en-GB": "viewed",
-            "en-US": "viewed"
+            "en": "viewed"
         }
     },
     "context": {
-        "contextActivities": {
-            "grouping": [
-                {
-                    "objectType": "Activity",
-                    "id": "https://courses.alpha.jisc.ac.uk/moodle/course.php?id=5",
-                    "definition": {
-                        "type": "http://adlnet.gov/expapi/activities/course",
-                        "name": {
-                            "en-GB": "LA101: Introduction to Jisc Learning Analytics",
-                            "en-US": "LA101: Introduction to Jisc Learning Analytics"
-                        },
-                        "description": {
-                            "en-GB": "A Moodle course",
-                            "en-US": "A Moodle course"
-                        },
-                        "extensions": {
-                            
-                        }
-                    }
-                }
-            ]
-        },
         "platform": "Moodle",
         "extensions": {
+            "http://xapi.jisc.ac.uk/extensions/sessionId": {
+                "sessionId": "FYcVzA4iDF"
+            },
+            "http://id.tincanapi.com/extension/ip-address": {
+                "ip-address": "0:0:0:0:0:0:0:1"
+            },
+            "http://lrs.learninglocker.net/define/extensions/info": {
+                "https://moodle.org/": "2.8.11 (Build: 20160314)",
+                "https://github.com/LearningLocker/Moodle-Log-Expander": "1.0.0",
+                "https://github.com/LearningLocker/Moodle-xAPI-Translator": "1.0.0",
+                "https://github.com/JiscDev/xAPI-Recipe-Emitter": "1.0.0"
+            },
+            "http://xapi.jisc.ac.uk/extensions/courseArea": {
+                "id": "http://localhost:8080/moodle/moodle/course/view.php?id=2",
+                "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "Test"
+            }
         }
     },
-    "timestamp": "2016-01-08T10:20:28+00:00",
+    "timestamp": "2016-04-07T07:49:00-07:00",
     "object": {
         "objectType": "Activity",
-        "id": "https://courses.alpha.jisc.ac.uk/moodle/mod/page/view.php?id=117",
+        "id": "http://localhost:8080/moodle/moodle/mod/page/view.php?id=2",
         "definition": {
             "type": "http://adlnet.gov/expapi/activities/module",
             "name": {
-                "en-GB": "A User Focussed Overview of the Service",
-                "en-US": "A User Focussed Overview of the Service"
+                "en": "Test Page"
             },
             "description": {
-                "en-GB": "<p></p><p style=\"margin-top:0pt;margin-bottom:0pt;margin-left:0in;text-align:left;\r\ndirection:ltr;unicode-bidi:embed;word-break:normal;\r\npunctuation-wrap:hanging\"><br></p><p></p>",
-                "en-US": "<p></p><p style=\"margin-top:0pt;margin-bottom:0pt;margin-left:0in;text-align:left;\r\ndirection:ltr;unicode-bidi:embed;word-break:normal;\r\npunctuation-wrap:hanging\"><br></p><p></p>"
-            },
-            "extensions": {
-                
+                "en": "<p>Test Description</p>"
             }
         }
     },
     "authority": {
         "objectType": "Agent",
-        "name": "Test",
+        "name": "New Client",
         "mbox": "mailto:hello@learninglocker.net"
     },
-    "stored": "2016-01-08T10:21:18.228600+00:00",
-    "id": "d92710cf-1665-4a78-8bc4-5fae2563e8bc"
+    "stored": "2016-04-07T14:48:57.054700+00:00",
+    "id": "3f8357ee-5485-4ba6-bce9-a067dfaf0d6f"
 }
