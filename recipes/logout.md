@@ -29,23 +29,33 @@ The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out 
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedout",
         "display": {
-            "en-GB": "logged out of",
-            "en-US": "logged out of"
+            "en": "logged out of"
         }
     },
 ``` 
 
 ### Context
 
-[Context identifies](/common_statements.md#verbs) the platform that is being logged out of,  Moodle in this example.  Plugin specific extensions are optional and not part of the core recipe
+[Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
+
+[IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.
+
+SessionId is the VLE session Id
+
+Plugin specific extensions are optional and not part of the core recipe.
+
 
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": {
-            }
+        "extensions": 
+ 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
+                "sessionId": "32456891"  
+             },
+            "http://id.tincanapi.com/extensions/ip-address": {  
+                "ip-address":"10.3.3.48"
+              }
         }
-    },
 ```
 
 ### Object
@@ -60,12 +70,10 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
         "definition": {
             "type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "description": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
@@ -81,4 +89,4 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
 
 Moodle (ToDo)
 
-[Blackboard](blackboard/loggedout.js)
+[Blackboard](blackboard/loggedout.json)

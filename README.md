@@ -1,4 +1,5 @@
-#xAPI recipes for the Jisc Learning Analytics Project
+#xAPI recipes for the Jisc Learning Analytics Project v0.1
+
 ##Repository Workflow
 The simplest way of contributing xAPI recipes works as follows:
 
@@ -26,6 +27,8 @@ These are the currently platform independent documented recipes:
 * [Logged out] (recipes/logout.md)
 * [VLE resource viewed] (recipes/Module-View.md)
 * [Session timeout] (recipes/Session-timeout.md)
+* [Assignment Graded] (recipes/assignment-graded.md)
+* [Assignment Submitted] (recipes/assignment-submitted.md)
 
 ## Specific VLE examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
