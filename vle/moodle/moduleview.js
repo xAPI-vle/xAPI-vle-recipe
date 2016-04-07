@@ -1,4 +1,3 @@
-
 {
     "version": "1.0.0",
     "actor": {
@@ -36,12 +35,12 @@
             }
         }
     },
-    "timestamp": "2016-04-07T07:49:00-07:00",
+    "timestamp": "2016-04-07T08:35:35-07:00",
     "object": {
         "objectType": "Activity",
         "id": "http://localhost:8080/moodle/moodle/mod/page/view.php?id=2",
         "definition": {
-            "type": "http://adlnet.gov/expapi/activities/module",
+            "type": "http://xapi.jisc.ac.uk/define/vle/page",
             "name": {
                 "en": "Test Page"
             },
@@ -55,6 +54,6 @@
         "name": "New Client",
         "mbox": "mailto:hello@learninglocker.net"
     },
-    "stored": "2016-04-07T14:48:57.054700+00:00",
-    "id": "3f8357ee-5485-4ba6-bce9-a067dfaf0d6f"
+    "stored": "2016-04-07T15:35:36.147300+00:00",
+    "id": "55d93cbe-2681-44da-9066-3eeb88fb298a"
 }
