@@ -7,4 +7,4 @@
 Student logged 
 
 * [login.js] (login.js)
-* [module-view.js](module-view.js)
+* [moduleview.js](moduleview.js)

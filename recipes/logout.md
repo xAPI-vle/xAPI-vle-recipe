@@ -29,8 +29,7 @@ The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out 
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedout",
         "display": {
-            "en-GB": "logged out of",
-            "en-US": "logged out of"
+            "en": "logged out of"
         }
     },
 ``` 
@@ -71,12 +70,10 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
         "definition": {
             "type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "description": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
@@ -92,4 +89,4 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
 
 Moodle (ToDo)
 
-[Blackboard](blackboard/loggedout.js)
+[Blackboard](blackboard/loggedout.json)
