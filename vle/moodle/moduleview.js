@@ -23,6 +23,7 @@
             "http://id.tincanapi.com/extension/ip-address": {
                 "ip-address": "0:0:0:0:0:0:0:1"
             },
+        
             "http://lrs.learninglocker.net/define/extensions/info": {
                 "https://moodle.org/": "2.8.11 (Build: 20160314)",
                 "https://github.com/LearningLocker/Moodle-Log-Expander": "1.0.0",
