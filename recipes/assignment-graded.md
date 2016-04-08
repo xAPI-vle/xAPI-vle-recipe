@@ -107,6 +107,11 @@ Plugin specific extensions are optional and not part of the core recipe.
         
         "platform": "Moodle",
         "extensions": 
+       	 {
+      		"http://xapi.jisc.ac.uk/extensions/courseArea": {
+      		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
+                 "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
+              },
  			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
                 "sessionId": "32456891"  
              },
