@@ -9,12 +9,29 @@
         }
     },
     "verb": {
-        "id": "http://id.tincanapi.com/verb/viewed",
+        "id": "http://adlnet.gov/expapi/verbs/completed",
         "display": {
-            "en": "viewed"
+            "en": "completed"
         }
     },
     "context": {
+        "contextActivities": {
+            "grouping": [
+                {
+                    "objectType": "Activity",
+                    "id": "http://localhost:8080/moodle/moodle/course/view.php?id=2",
+                    "definition": {
+                        "type": "http://xapi.jisc.ac.uk/define/vle/course",
+                        "name": {
+                            "en": "Test"
+                        },
+                        "description": {
+                            "en": "A Moodle course"
+                        }
+                    }
+                }
+            ]
+        },
         "platform": "Moodle",
         "extensions": {
             "http://xapi.jisc.ac.uk/extensions/sessionId": {
@@ -23,7 +40,6 @@
             "http://id.tincanapi.com/extension/ip-address": {
                 "ip-address": "0:0:0:0:0:0:0:1"
             },
-        
             "http://lrs.learninglocker.net/define/extensions/info": {
                 "https://moodle.org/": "2.8.11 (Build: 20160314)",
                 "https://github.com/LearningLocker/Moodle-Log-Expander": "1.0.0",
@@ -36,17 +52,22 @@
             }
         }
     },
-    "timestamp": "2016-04-07T08:35:35-07:00",
+    "timestamp": "2016-04-07T09:03:40-07:00",
     "object": {
         "objectType": "Activity",
-        "id": "http://localhost:8080/moodle/moodle/mod/page/view.php?id=2",
+        "id": "http://localhost:8080/moodle/moodle/mod/assign/view.php?id=4",
         "definition": {
-            "type": "http://xapi.jisc.ac.uk/define/vle/page",
+            "type": "http://adlnet.gov/expapi/activities/module",
             "name": {
-                "en": "Test Page"
+                "en": "Assignment 2"
             },
             "description": {
-                "en": "<p>Test Description</p>"
+                "en": "<p>Assignment 2<br></p>"
+            },
+            "extensions": {
+                "http://xapi.jisc.ac.uk/extensions/duedate": {
+                    "duedate": "2016-04-14T00:00:00-07:00"
+                }
             }
         }
     },
@@ -55,6 +76,6 @@
         "name": "New Client",
         "mbox": "mailto:hello@learninglocker.net"
     },
-    "stored": "2016-04-07T15:35:36.147300+00:00",
-    "id": "55d93cbe-2681-44da-9066-3eeb88fb298a"
+    "stored": "2016-04-07T16:03:41.255200+00:00",
+    "id": "554bdda9-a9eb-4f74-9ae8-aa64d3d589f3"
 }
