@@ -37,7 +37,7 @@ The Verb, [completed](/vocabulary.md#verbs) describes the action of completing a
 
 
 ### Object
-The object defines the activity that has been completed.   
+The object defines the activity that has been completed. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.
 
 ``` javascript
 
@@ -53,7 +53,17 @@ The object defines the activity that has been completed.
 			"description":{
 				"en":"Course Assignment description"
 				}
+			},
+			"extensions":{
+			{
+      			"http://xapi.jisc.ac.uk/extensions/courseArea": {
+      		 		 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
+                	 "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
+            	  },
+				"http://xapi.jisc.ac.uk/extensions/duedate":{
+				"duedate":"2016-02-05T17:59:45.000Z"
 			}
+			
 		}
 		
 ```
