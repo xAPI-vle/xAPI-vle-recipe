@@ -35,7 +35,6 @@ Usage:
 Usage:
 
 - object.definition.type
-- object.definition.extensions.<extension>: 
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
@@ -49,7 +48,8 @@ Usage:
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/define/extensions/externalURL | | | 
 
 Usage:
-- [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those elements 
+- [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those element
+
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
 | Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/extensions/duedate      |     | |
@@ -59,8 +59,7 @@ Usage:
 ### Context
 
 Usage:
-
-1.[Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
+- [Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
 
 
 | Label  		| Description   | IRI    | Recipe example
@@ -70,7 +69,8 @@ Usage:
 | IP address	|  client's address location on internet     | http://id.tincanapi.com/extension/ip-address | |
 | Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/extensions/recipeVersion | |
 
-1.Context.extensions.courseArea
+- Context.extensions.courseArea
+
 | Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |------------------------------------------------------|----|
 | VLE Module ID |  [Entity that connects a course area in a VLE with a module](https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md)         | http://xapi.jisc.ac.uk/extensions/vle_mod_id | |
