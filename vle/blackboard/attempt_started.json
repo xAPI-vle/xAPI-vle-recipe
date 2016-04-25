@@ -13,7 +13,7 @@
     "verb":{
         "id":"http://activitystrea.ms/schema/1.0/start",
         "display":{
-            "en-US":"started"
+            "en":"started"
         }
     },
     "object":{
@@ -22,10 +22,10 @@
         "definition":{
             "type":"http://adlnet.gov/expapi/activities/module",
             "name":{
-                "en-US":"Test1"
+                "en":"Test1"
             },
             "description":{
-                "en-US":"Test1"
+                "en":"Test1"
             }
         }
     },
@@ -38,10 +38,10 @@
                 "definition":{
                     "type":"http://adlnet.gov/expapi/activities/course",
                     "name":{
-                        "en-US":"xAPI Basics"
+                        "en":"xAPI Basics"
                     },
                     "description":{
-                        "en-US":"xAPI Basics course for Learning Analytics enthusiasts"
+                        "en":"xAPI Basics course for Learning Analytics enthusiasts"
                     }
                 }
             }
@@ -49,7 +49,8 @@
         },
         "platform": "Blackboard",
         "extensions": {
-       		"http://xapi.jisc.ac.uk/extensions/courseArea": {
+       		"http://xapi.jisc.ac.uk/extensions/courseArea": {      		    
+       			"http://xapi.jisc.ac.uk/extensions/vle_mod_id": "b-xapi",
                 "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1"
              },
             "http://xapi.jisc.ac.uk/extensions/sessionId": {

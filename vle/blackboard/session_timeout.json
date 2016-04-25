@@ -5,7 +5,7 @@
     "verb": {
         "id": "https://w3id.org/xapi/adl/verbs/abandoned",
         "display": {
-            "en-US": "session timed out"
+            "en": "session timed out"
         }
     },
     "actor": {
@@ -22,10 +22,10 @@
         "definition": {         
         	"type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
-                "en-US": "Blackboard (https://jisc.blackboard.com)"
+                "en": "Blackboard (https://jisc.blackboard.com)"
             },
             "description": {
-                "en-US": "Blackboard (https://jisc.blackboard.com)"
+                "en": "Blackboard (https://jisc.blackboard.com)"
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {

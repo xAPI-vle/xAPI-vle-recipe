@@ -13,7 +13,7 @@
     "verb":{
         "id":"http://adlnet.gov/expapi/verbs/completed",
         "display":{
-            "en-US":"completed"
+            "en":"completed"
         }
     },
     "object":{
@@ -22,14 +22,14 @@
         "definition":{
             "type":"http://adlnet.gov/expapi/activities/module",
             "name":{
-                "en-US":"Course 47 Assignment"
+                "en":"Course 47 Assignment"
             },
             "description":{
-                "en-US":"Course 47 Assignment description"
+                "en":"Course 47 Assignment description"
             }
         },
         "extensions":{
-            "http://lrs.learninglocker.net/define/extensions/blackboard_module":{
+            "http://xapi.jisc.ac.uk/extensions/duedate":{
                 "duedate":"2016-02-05T17:59:45.000Z"
             }
         }
@@ -43,10 +43,10 @@
                     "definition":{
                         "type":"http://adlnet.gov/expapi/activities/course",
                         "name":{
-                            "en-US":"xAPI Basics"
+                            "en":"xAPI Basics"
                         },
                         "description":{
-                            "en-US":"xAPI Basics course for Learning Analytics enthusiasts"
+                            "en":"xAPI Basics course for Learning Analytics enthusiasts"
                         }
                     }
                 }
@@ -55,6 +55,7 @@
         "platform":"Blackboard",
         "extensions":{
             "http://xapi.jisc.ac.uk/extensions/courseArea":{
+                "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "b-xapi",
                 "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1"
             },
             "http://xapi.jisc.ac.uk/extensions/sessionId":{
