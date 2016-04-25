@@ -67,7 +67,7 @@ Usage:
 | ------------- | ------------- |------------------------------------------------------|----|
 | Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
 | Session id 	|  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
-| IP address	|  client's real address location on internet     | http://id.tincanapi.com/extension/ip-address | |
+| IP address	|  client's address location on internet     | http://id.tincanapi.com/extension/ip-address | |
 | Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/extensions/recipeVersion | |
 
 1.Context.extensions.courseArea
