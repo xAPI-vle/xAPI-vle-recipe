@@ -5,7 +5,7 @@
     "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedout",
         "display": {
-            "en-US": "logged out"
+            "en": "logged out"
         }
     },
     "actor": {
@@ -22,10 +22,10 @@
         "definition": {         
         	"type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
-                "en-US": "Blackboard (https://jisc.blackboard.com)"
+                "en": "Blackboard (https://jisc.blackboard.com)"
             },
             "description": {
-                "en-US": "Blackboard (https://jisc.blackboard.com)"
+                "en": "Blackboard (https://jisc.blackboard.com)"
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
