@@ -66,12 +66,12 @@ Plugin specific extensions are optional and not part of the core recipe.
 Needs to identify what was requested. A list of valid values can be found at [examples of object.definition.extensions](vocabulary#Object.definition.extension)
 
 ### Example Valid Values:
-- http://xapi.jisc.ac.uk/define/extensions/vle/page 
-- http://xapi.jisc.ac.uk/define/extensions/vle/quiz 
-- http://xapi.jisc.ac.uk/define/extensions/vle/forum 
-- http://xapi.jisc.ac.uk/define/extensions/externalURL 
-- http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument 
-- http://xapi.jisc.ac.uk/define/extensions/documents/excelDocument 
+- http://xapi.jisc.ac.uk/extensions/vle/page 
+- http://xapi.jisc.ac.uk/extensions/vle/quiz 
+- http://xapi.jisc.ac.uk/extensions/vle/forum 
+- http://xapi.jisc.ac.uk/extensions/externalURL 
+- http://xapi.jisc.ac.uk/extensions/documents/wordDocument 
+- http://xapi.jisc.ac.uk/extensions/documents/excelDocument 
 
 
 ``` javascript

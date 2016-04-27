@@ -77,7 +77,7 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
-                    "type": "http://xapi.jisc.ac.uk/define/vle"
+                    "type": "http://xapi.jisc.ac.uk/vle"
                 }
             }
         }

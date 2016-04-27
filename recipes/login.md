@@ -79,7 +79,7 @@ The object defines the item that the user hits when they login into a VLE.   A [
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
-                    "type": "http://xapi.jisc.ac.uk/define/vle"
+                    "type": "http://xapi.jisc.ac.uk/vle"
                 }
             }
         }

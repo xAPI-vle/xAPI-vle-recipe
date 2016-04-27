@@ -76,7 +76,7 @@ The object defines the item that the user has timed out of.  A [Jisc specific ex
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
-                    "type": "http://xapi.jisc.ac.uk/define/vle"
+                    "type": "http://xapi.jisc.ac.uk/vle"
                 }
             }
         }

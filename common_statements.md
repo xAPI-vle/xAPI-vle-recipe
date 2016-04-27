@@ -35,7 +35,7 @@ Context provides information about the system returning the information it gives
             
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48" , //IP address
             
-			"http://lrs.learninglocker.net/define/extensions/info": {   //  Information on the extension or plugin emitting the event
+			"http://lrs.learninglocker.net/extensions/info": {   //  Information on the extension or plugin emitting the event
                             "https://moodle.org/": "2.8.7+ (Build: 20150730)",
                             "https://github.com/LearningLocker/Moodle-Log-Expander": "0.4.2\n",
                             "https://github.com/LearningLocker/Moodle-xAPI-Translator": "0.4.1\n",

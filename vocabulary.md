@@ -38,14 +38,14 @@ Usage:
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
-| VLE        	| A virtual learning environment | http://xapi.jisc.ac.uk/define/extensions/vle       |     | |
-| VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/define/extensions/vle/content | | |
-| VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/define/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
-| VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/define/extensions/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
-| VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/define/extensions/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
-| Moodle  		| An instance of Moodle          | http://lrs.learninglocker.net/define/extensions/moodle_course  | [Logged in](recipes/login.md#verb)|
+| VLE        	| A virtual learning environment | http://xapi.jisc.ac.uk/extensions/vle       |     | |
+| VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/extensions/vle/content | | |
+| VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
+| VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
+| VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/extensions/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
+| Moodle  		| An instance of Moodle          | http://lrs.learninglocker.net/extensions/moodle_course  | [Logged in](recipes/login.md#verb)|
 | Module type   | Moodle                         | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](recipes/Module-View.md#object)|
-| External URL  | An external URL                | http://xapi.jisc.ac.uk/define/extensions/externalURL | | | 
+| External URL  | An external URL                | http://xapi.jisc.ac.uk/extensions/externalURL | | | 
 
 Usage:
 - [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those element
