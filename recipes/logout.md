@@ -48,13 +48,13 @@ Plugin specific extensions are optional and not part of the core recipe.
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": 
+        "extensions": {
  			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
                 "sessionId": "32456891"  
              },
-            "http://id.tincanapi.com/extensions/ip-address": {  
-                "ip-address":"10.3.3.48"
-              }
+			 
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
+             
         }
 ```
 

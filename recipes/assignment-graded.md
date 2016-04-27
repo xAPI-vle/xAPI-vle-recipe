@@ -106,8 +106,7 @@ Plugin specific extensions are optional and not part of the core recipe.
         },
         
         "platform": "Moodle",
-        "extensions": 
-       	 {
+        "extensions":  {
       		"http://xapi.jisc.ac.uk/extensions/courseArea": {
       		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
                  "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
@@ -115,9 +114,9 @@ Plugin specific extensions are optional and not part of the core recipe.
  			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
                 "sessionId": "32456891"  
              },
-            "http://id.tincanapi.com/extensions/ip-address": {  
-                "ip-address":"10.3.3.48"
-              }
+			 
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
+              
         }
 ```
 
