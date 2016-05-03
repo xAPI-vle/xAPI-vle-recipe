@@ -61,7 +61,7 @@ Plugin specific extensions are optional and not part of the core recipe.
 ### Object
 
 
-The object defines the item that the user has logged out of.  A [Jisc specific extension](common_statements.md#jisc_extensions) details that it is a VLE that is being logged out of 
+The object defines the item that the user has logged out of.  A [Jisc specific extension](common_statements.md#jisc_extensions) details that it is a lms that is being logged out of 
 ``` javascript
 
 "object": {
@@ -77,7 +77,7 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
-                    "type": "http://xapi.jisc.ac.uk/vle"
+                    "type": "http://id.tincanapi.com/activitytype/lms"
                 }
             }
         }
