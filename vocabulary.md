@@ -46,6 +46,8 @@ Usage:
 | Moodle  		| An instance of Moodle          | http://lrs.learninglocker.net/extensions/moodle_course  | [Logged in](recipes/login.md#verb)|
 | Module type   | Moodle                         | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](recipes/Module-View.md#object)|
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/extensions/externalURL | | | 
+| Microsoft Word Document  | Microsoft Word Document                | http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument | | | 
+| Microsoft Excel Document  | Microsoft Excel Document                | http://xapi.jisc.ac.uk/define/extensions/documents/excelDocument | | | 
 
 Usage:
 - [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those element
