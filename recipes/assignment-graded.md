@@ -24,22 +24,27 @@ This activity records a graded assignment
 
 ### Verb
 
-The Verb, [evaluated](/vocabulary.md#verbs) describes the action of evaluating a learning activity.
+The Verb, [scored](/vocabulary.md#verbs) describes the action of evaluating a learning activity.
 
 ``` javascript
  "verb":{
-        "id":"http://www.tincanapi.co.uk/verbs/evaluated",
+        "id":"http://adlnet.gov/expapi/verbs/scored ",
         "display":{
-            "en":"evaluated"
+            "en":"scored"
          }
-    },
-    "result":{
+    }
+``` 
+
+### Result
+The result object can include scaled, raw, min and max score, success, and response (the instructor's feedback). See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
+
+ "result":{
         "score":{
             "raw":8
         },
+		
         "completion":true
     }
-``` 
 
 ### Object
 The object defines the activity that has been evaluated. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.
@@ -81,7 +86,7 @@ SessionId is the VLE session Id
 
 contextActivities has a context type of grouping. A course that relates to a assignment as the parent.
 
-Plugin specific extensions are optional and not part of the core recipe.
+Plugin specific extensions are optional and not part of the core recipe. Instructor is optional and is the instructor that the Statement relates to.
 
 
 ``` javascript
@@ -103,6 +108,14 @@ Plugin specific extensions are optional and not part of the core recipe.
                 }
             ]
         },
+		
+		"instructor": {
+            "objectType": "Agent",
+            "name": "instructor",
+            "account": {
+                "name": "2",
+                "homePage": "http://localhost/moodle"
+            },
         
         "platform": "Moodle",
         "extensions":  {
@@ -110,12 +123,11 @@ Plugin specific extensions are optional and not part of the core recipe.
       		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
                  "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
               },
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
-                "sessionId": "32456891"  
-             },
-			 
+			  
+ 			"http://xapi.jisc.ac.uk/extensions/sessionId": "32456891" ,
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
-              
+         
+		 
         }
 ```
 
