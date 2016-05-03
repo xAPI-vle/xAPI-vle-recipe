@@ -30,7 +30,7 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedin/",
         "display": {
-            "en"
+            "en" : "logged in to"
         }
     },
 ``` 
@@ -62,7 +62,8 @@ Plugin specific extensions are optional and not part of the core recipe.
 
 ### Object
 
-The object defines the item that the user hits when they login into a VLE.   A [Jisc specific extension](/common_statements.md#jisc_extensions) details that it is a VLE that is being logged into 
+The object.definition.name and object.definition.definition describe the resource returned to the user after they have performed the logged in event. The object.definition.extensions.[applicationType](http://xapi.jisc.ac.uk/extensions/applicationType) is used to identify the system type that is being logged into: a VLE, identified by http://xapi.jisc.ac.uk/define/vle
+
 
 ``` javascript
 
