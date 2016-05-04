@@ -53,10 +53,8 @@ Plugin specific extensions are optional and not part of the core recipe.
       		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
                  "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
               },
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
-                "sessionId": "32456891"  
-             },
-			 
+ 			"http://xapi.jisc.ac.uk/extensions/sessionId": "32456891"  ,
+	
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
               
         }
@@ -82,9 +80,6 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  definition type as above
 		"name": { "en": "Sample page" },			   //  name of item as returned by VLE
 		"description": { "en": "sample page" } //  description of item as returned by VLE
-		"extensions": {
-    				"http://xapi.jisc.ac.uk/extensions/moduleType":"http://xapi.jisc.ac.uk/define/vle/page",
-            	 	}
 	 }
 }
 ```
