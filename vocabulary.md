@@ -34,7 +34,6 @@ Usage:
 Usage:
 
 - object.definition.type
-- context.definition.type
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
