@@ -37,7 +37,7 @@ Usage:
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
-| LMS        	| Learning Management System. At it's core, a platform used to launch and track learning experiences. | http://id.tincanapi.com/activitytype/lms      |     | |
+| VLE        	| Learning Management System. At it's core, a platform used to launch and track learning experiences. | http://id.tincanapi.com/activitytype/lms      |     | |
 | VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/extensions/vle/content | | |
 | VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
 | VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
