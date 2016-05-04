@@ -42,7 +42,6 @@ Usage:
 | VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
 | VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
 | VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/extensions/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
-| Moodle  		| An instance of Moodle          | http://lrs.learninglocker.net/extensions/moodle_course  | [Logged in](recipes/login.md#verb)|
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/extensions/externalURL | | | 
 | Microsoft Word Document  | Microsoft Word Document                | http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument | | | 
 | Microsoft Excel Document  | Microsoft Excel Document                | http://xapi.jisc.ac.uk/define/extensions/documents/excelDocument | | | 
