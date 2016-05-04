@@ -66,7 +66,7 @@ The object defines the activity that has been evaluated. [Examples of valid obje
 				}
 			},
 			"extensions":{
-				"http://xapi.jisc.ac.uk/extensions/duedate": "2016-02-05T17:59:45.000Z"
+				"http://xapi.jisc.ac.uk/extensions/dueDate": "2016-02-05T17:59:45.000Z"
 			}
 		}
 		

@@ -15,12 +15,12 @@ Usage:
 |  Viewed     | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed](http://id.tincanapi.com/verb/viewed) | [Object Viewed](recipes/Module-View.md#verb) |
 |  Session timed out | Indicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure.  |	[https://w3id.org/xapi/adl/verbs/abandoned] (https://w3id.org/xapi/adl/verbs/abandoned) | [Object Viewed](recipes/Module-View.md#verb) |
 |  Completed |  Completing an activity - finishing in its entirety  |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](recipes/assigment-submitted) |
-|  Scored |  Indicates a numerical value related to an actor's performance on an activity. |	[http://adlnet.gov/expapi/verbs/scored] (http://adlnet.gov/expapi/verbs/scored) | [Assignment Evaluated](recipes/assigment-evaluated.md#verb) |
+|  Scored |  Indicates a numerical value related to an actor's performance on an activity. |	[http://adlnet.gov/expapi/verbs/scored]) | [Assignment Evaluated](recipes/assigment-evaluated.md#verb) |
 
 
 ### Object
 
-#### Object Definition Type
+
 Usage:
 
 - [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
@@ -28,7 +28,6 @@ Usage:
 | Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |--------|----------------|
 | Application   | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|[Logged in](recipes/login.md#complete_example) |
-| Application Type |  Identifies the genre of software application  | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
 | Module        | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | [Module-View](recipes/Module-View.md#object) |
 
 
@@ -55,8 +54,8 @@ Usage:
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
-| Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/extensions/duedate      |     | |
-
+| Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/extensions/dueDate      |     | |
+| Application Type |  Identifies the genre of software application  | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
 
 
 ### Context

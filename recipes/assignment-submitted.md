@@ -61,7 +61,7 @@ The object defines the activity that has been completed. [Examples of valid obje
                 	 "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
             	  },
 				  
-				"http://xapi.jisc.ac.uk/extensions/duedate": "2016-02-05T17:59:45.000Z"
+				"http://xapi.jisc.ac.uk/extensions/dueDate": "2016-02-05T17:59:45.000Z"
 			}
 			
 		}
