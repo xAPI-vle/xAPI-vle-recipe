@@ -14,8 +14,8 @@ Usage:
 |  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|[Logged out](recipes/logout.md#verb) |
 |  Viewed     | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed](http://id.tincanapi.com/verb/viewed) | [Object Viewed](recipes/Module-View.md#verb) |
 |  Session timed out | Indicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure.  |	[https://w3id.org/xapi/adl/verbs/abandoned] (https://w3id.org/xapi/adl/verbs/abandoned) | [Object Viewed](recipes/Module-View.md#verb) |
-|  Completed |  Completing an activity - finishing in its entirety  |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](recipes/assigment-submitted) |
-|  Scored |  Indicates a numerical value related to an actor's performance on an activity. |	[http://adlnet.gov/expapi/verbs/scored]) | [Assignment Evaluated](recipes/assigment-evaluated.md#verb) |
+|  Completed |  Completing an activity - finishing in its entirety  |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](recipes/assignment-submitted.md) |
+|  Scored |  Indicates a numerical value related to an actor's performance on an activity. |	[http://adlnet.gov/expapi/verbs/scored](http://adlnet.gov/expapi/verbs/scored) | [Assignment Graded](recipes/assigment-graded.md#verb) |
 
 
 ### Object
@@ -38,13 +38,12 @@ Usage:
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
 | LMS        	| Learning Management System. At it's core, a platform used to launch and track learning experiences. | http://id.tincanapi.com/activitytype/lms      |     | |
-| VLE        	| A virtual learning environment | http://xapi.jisc.ac.uk/extensions/vle       |     | |
 | VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/extensions/vle/content | | |
 | VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
 | VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
 | VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/extensions/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
 | Moodle  		| An instance of Moodle          | http://lrs.learninglocker.net/extensions/moodle_course  | [Logged in](recipes/login.md#verb)|
-| Module type   | Moodle                         | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](recipes/Module-View.md#object)|
+| Module type   | Module Type                         | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](recipes/Module-View.md#object)|
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/extensions/externalURL | | | 
 | Microsoft Word Document  | Microsoft Word Document                | http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument | | | 
 | Microsoft Excel Document  | Microsoft Excel Document                | http://xapi.jisc.ac.uk/define/extensions/documents/excelDocument | | | 

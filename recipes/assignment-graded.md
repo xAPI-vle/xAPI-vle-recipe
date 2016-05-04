@@ -38,6 +38,8 @@ The Verb, [scored](/vocabulary.md#verbs) describes the action of evaluating a le
 ### Result
 The result object can include scaled, raw, min and max score, success, and response (the instructor's feedback). See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
 
+
+``` javascript
  "result":{
         "score":{
             "raw":8
@@ -45,6 +47,7 @@ The result object can include scaled, raw, min and max score, success, and respo
 		
         "completion":true
     }
+```
 
 ### Object
 The object defines the activity that has been evaluated. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.
