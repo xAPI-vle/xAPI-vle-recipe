@@ -1,37 +1,31 @@
 {
-    "version":"1.0.0",
-    "id":"1dc6aeab-6cb0-4501-92db-c7d7ca467d00",
-    "timestamp":"2016-02-05T17:59:45.000Z",
-    "actor":{
-        "objectType":"Agent",
-        "name":"test1 test1",
-        "account":{
-            "homePage":"https://jisc.blackboard.com",
-            "name":"test1"
+	"version": "1.0.0",
+    "id": "c3e2b586-8923-412c-8259-5210ceb79a2f",
+    "timestamp": "2015-12-11T10:19:49.000Z",
+    "actor": {
+        "objectType": "Agent",
+        "name": "Student Name",
+        "account": {
+            "name": "student_username",
+            "homePage": "https://jisc.blackboard.com"
         }
     },
-    "verb":{
-        "id":"http://adlnet.gov/expapi/verbs/completed",
-        "display":{
-            "en":"completed"
+    "verb": {
+        "id": "http://id.tincanapi.com/verb/viewed",
+        "display": {
+            "en": "viewed"
         }
     },
-    "result":{
-        "score":{
-            "raw":1
-        },
-        "completion":true
-    },
-    "object":{
-        "objectType":"Activity",
-        "id":"https://jisc.blackboard.com/webapps/gradebook/do/instructor/enterGradeCenter?course_id=_47_1&cvid=fullGC#",
-        "definition":{
-            "type":"http://adlnet.gov/expapi/activities/module",
-            "name":{
-                "en":"Test1"
+    "object": {
+        "objectType": "Activity",
+        "id": "https://jisc.blackboard.com/webapps/blackboard/content/listContent.jsp?content_id=_49953_1&course_id=_21122_1",
+        "definition": {
+            "type": "http://xapi.jisc.ac.uk/define/extensions/vle/content",
+            "name": {
+                "en": "Introduction to Scrum"
             },
-            "description":{
-                "en":"Test1"
+            "description": {
+                "en": "A quick overview of Scrum. This e-learning module covers the rationale for Agile/Scrum, along with an overview of roles, meetings, and artifacts. The module ends with a challenging quiz which has been shown to increase scores on Scrum certification tests (such as Certified Scrum Master). "
             }
         }
     },
@@ -55,8 +49,8 @@
         },
         "platform": "Blackboard",
         "extensions": {
-       		"http://xapi.jisc.ac.uk/extensions/courseArea": {
-       		    "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "b-xapi",
+       		"http://xapi.jisc.ac.uk/extensions/courseArea": { 
+       			"http://xapi.jisc.ac.uk/extensions/vle_mod_id": "b-xapi",
                 "id":"https://jisc.blackboard.com/webapps/blackboard/execute/modulepage/view?course_id=1"
              },
             "http://xapi.jisc.ac.uk/extensions/sessionId": {

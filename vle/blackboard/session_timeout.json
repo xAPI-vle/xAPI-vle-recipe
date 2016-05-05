@@ -1,0 +1,52 @@
+{
+    "version": "1.0.0",
+    "id": "fed1365a-61c7-4785-a07f-8ef4837695f8",
+    "timestamp": "2015-12-10T08:55:09.000Z",
+    "verb": {
+        "id": "https://w3id.org/xapi/adl/verbs/abandoned",
+        "display": {
+            "en": "session timed out"
+        }
+    },
+    "actor": {
+        "objectType": "Agent",
+        "name": "test1 test1",
+        "account": {
+            "homePage": "https://jisc.blackboard.com",
+            "name": "test1"
+        }
+    },
+    "object": {
+        "objectType": "Activity",
+        "id": "https://jisc.blackboard.com/webapps/login/",
+        "definition": {         
+        	"type": "http://activitystrea.ms/schema/1.0/application",
+            "name": {
+                "en": "Blackboard (https://jisc.blackboard.com)"
+            },
+            "description": {
+                "en": "Blackboard (https://jisc.blackboard.com)"
+            },
+            "extensions": {
+                "http://xapi.jisc.ac.uk/extensions/applicationType": {
+                    "type": "http://xapi.jisc.ac.uk/define/vle"
+                }
+            }
+        }
+    },
+    "context": {
+        "platform": "Blackboard",
+        "extensions": {
+            "http://xapi.jisc.ac.uk/extensions/sessionId": {
+                "sessionId": "32456891"
+             },
+             "http://id.tincanapi.com/extension/ip-address": {
+                "ip-address":"10.3.3.48"
+             },
+            "http://lrs.learninglocker.net/define/extensions/info": {
+                "https://jisc.blackboard.com": "9.1.201410",
+                "https://jisc.blackboard.com/webapps/bbc-xAPI-BBLEARN/": "1.0.0"
+            }  
+        }
+    }
+}

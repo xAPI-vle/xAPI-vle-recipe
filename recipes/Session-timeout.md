@@ -29,8 +29,7 @@ The Verb,[abandoned](/vocabulary.md#verbs) describes the action of logging out o
 "verb": {
         "id": "https://w3id.org/xapi/adl/verbs/abandoned",
         "display": {
-            "en-GB": "session timed out",
-            "en-US": "session timed out"
+            "en": "session timed out"
         }
     },
 ``` 
@@ -70,12 +69,10 @@ The object defines the item that the user has timed out of.  A [Jisc specific ex
         "definition": {
             "type": "http://activitystrea.ms/schema/1.0/application",
             "name": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "description": {
-                "en-GB": "A Moodle course",
-                "en-US": "A Moodle course"
+                "en": "A Moodle course"
             },
             "extensions": {
                 "http://xapi.jisc.ac.uk/extensions/applicationType": {
@@ -90,4 +87,4 @@ The object defines the item that the user has timed out of.  A [Jisc specific ex
 ### Complete VLE Specific Examples
 Moodle (ToDo)
 
-[Blackboard](blackboard/loggedout.js)
+[Blackboard](blackboard/loggedout.json)

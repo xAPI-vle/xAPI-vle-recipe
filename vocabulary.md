@@ -14,7 +14,8 @@ Usage:
 |  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|[Logged out](recipes/logout.md#verb) |
 |  Viewed     | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed](http://id.tincanapi.com/verb/viewed) | [Object Viewed](recipes/Module-View.md#verb) |
 |  Session timed out | Indicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure.  |	[https://w3id.org/xapi/adl/verbs/abandoned] (https://w3id.org/xapi/adl/verbs/abandoned) | [Object Viewed](recipes/Module-View.md#verb) |
-|  Completed |  Completing an activity - finishing in its entirety. .   |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](vle/blackboard/assignment_submitted.json) |
+|  Completed |  Completing an activity - finishing in its entirety  |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](recipes/assigment-submitted) |
+|  Evaluated |  Evaluated a learning activity |	[http://www.tincanapi.co.uk/verbs/evaluated (http://www.tincanapi.co.uk/verbs/evaluated) | [Assignment Evaluated](recipes/assigment-evaluated.md#verb) |
 
 
 ### Object
@@ -34,7 +35,6 @@ Usage:
 Usage:
 
 - object.definition.type
-- object.definition.extensions.<extension>: 
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
@@ -47,17 +47,30 @@ Usage:
 | Module type   | Moodle                         | http://xapi.jisc.ac.uk/extensions/moduleType | [Module-View - Object](recipes/Module-View.md#object)|
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/define/extensions/externalURL | | | 
 
+Usage:
+- [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those element
+
+| Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
+| ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
+| Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/extensions/duedate      |     | |
+
+
 
 ### Context
 
 Usage:
-
-1.[Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
+- [Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
 
 
 | Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |------------------------------------------------------|----|
 | Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
-| Session id |  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
-| IP address|  client's real address location on internet     | http://id.tincanapi.com/extension/ip-address | |
+| Session id 	|  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
+| IP address	|  client's address location on internet     | http://id.tincanapi.com/extension/ip-address | |
+| Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/extensions/recipeVersion | |
 
+- Context.extensions.courseArea
+
+| Label  		| Description   | IRI    | Recipe example
+| ------------- | ------------- |------------------------------------------------------|----|
+| VLE Module ID |  [Entity that connects a course area in a VLE with a module](https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md)         | http://xapi.jisc.ac.uk/extensions/vle_mod_id | |

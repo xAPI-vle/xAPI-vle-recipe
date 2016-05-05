@@ -28,8 +28,7 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
 "verb": {
         "id": "http://id.tincanapi.com/verb/viewed",
         "display": {
-            "en-GB": "viewed",
-            "en-US": "viewed"
+            "en": "viewed"
         }
     },
 ```
@@ -52,6 +51,7 @@ Plugin specific extensions are optional and not part of the core recipe.
         "extensions": 
        		 {
       		"http://xapi.jisc.ac.uk/extensions/courseArea": {
+      		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
                  "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
               },
  			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
@@ -82,7 +82,7 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 	"definition": {
 		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  definition type as above
 		"name": { "en": "Sample page" },			   //  name of item as returned by VLE
-		"description": { "en": "sample page"	 } //  description of item as returned by VLE
+		"description": { "en": "sample page" } //  description of item as returned by VLE
 		"extensions": {
     				"http://xapi.jisc.ac.uk/extensions/moduleType":"http://xapi.jisc.ac.uk/define/vle/page",
             	 	}
@@ -93,4 +93,4 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 ### Complete VLE Specific Examples
 [Moodle Example](/vle/moodle/moduleview.js)
 
-[Blackboard Example](/vle/blackboard/examples.md)
+[Blackboard Example](/vle/blackboard/course_content_access.json)
