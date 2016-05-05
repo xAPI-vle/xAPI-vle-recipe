@@ -100,7 +100,7 @@ Plugin specific extensions are optional and not part of the core recipe.
                     "objectType":"Activity",
                     "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4",
                     "definition":{
-                        "type":"http://adlnet.gov/expapi/activities/course",
+                        "type":"http://xapi.jisc.ac.uk/extensions/courseArea",
                         "name":{
                             "en":"xAPI Basics"
                         },
