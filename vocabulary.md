@@ -23,6 +23,7 @@ Usage:
 
 Usage:
 
+objects for:
 - [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
 
 | Label  		| Description   | IRI    | Recipe example
@@ -33,6 +34,7 @@ Usage:
 
 Usage:
 
+atomic values for:
 - object.definition.type
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example

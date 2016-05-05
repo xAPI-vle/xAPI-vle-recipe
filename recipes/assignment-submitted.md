@@ -35,6 +35,16 @@ The Verb, [completed](/vocabulary.md#verbs) describes the action of completing a
     },
 ``` 
 
+### Result
+The result object can include completion. See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
+
+
+``` javascript
+ "result":{
+ 
+        "completion":true
+    }
+```
 
 ### Object
 The object defines the activity that has been completed. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.

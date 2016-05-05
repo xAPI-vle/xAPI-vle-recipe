@@ -45,7 +45,7 @@ The result object can include scaled, raw, min and max score, success, and respo
             "raw":8
         },
 		
-        "completion":true
+     
     }
 ```
 
