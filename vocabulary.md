@@ -40,11 +40,11 @@ atomic values for:
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
 | VLE        	| Learning Management System. At it's core, a platform used to launch and track learning experiences. | http://id.tincanapi.com/activitytype/lms      |     | |
-| VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/extensions/vle/content | | |
-| VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
-| VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/extensions/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
-| VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/extensions/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
-| External URL  | An external URL                | http://xapi.jisc.ac.uk/extensions/externalURL | | | 
+| VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/vle/content | | |
+| VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
+| VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
+| VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
+| External URL  | An external URL                | http://xapi.jisc.ac.uk/externalURL | | | 
 | Microsoft Word Document  | Microsoft Word Document                | http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument | | | 
 | Microsoft Excel Document  | Microsoft Excel Document                | http://xapi.jisc.ac.uk/define/extensions/documents/excelDocument | | | 
 
@@ -53,8 +53,8 @@ Usage:
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
-| Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/extensions/dueDate      |     | |
-| Application Type |  Identifies the genre of software application  | http://xapi.jisc.ac.uk/extensions/applicationType | [Logged in](recipes/login.md#object)|
+| Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/dueDate      |     | |
+| Application Type |  Identifies the genre of software application  | http://xapi.jisc.ac.uk/applicationType | [Logged in](recipes/login.md#object)|
 
 
 ### Context
@@ -65,13 +65,13 @@ Usage:
 
 | Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |------------------------------------------------------|----|
-| Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/extensions/courseArea | |
-| Session id 	|  local session id       | http://xapi.jisc.ac.uk/extensions/sessionId | |
+| Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/courseArea | |
+| Session id 	|  local session id       | http://xapi.jisc.ac.uk/sessionId | |
 | IP address	|  client's address location on internet     | http://id.tincanapi.com/extension/ip-address | |
-| Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/extensions/recipeVersion | |
+| Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/recipeVersion | |
 
 - Context.extensions.courseArea
 
 | Label  		| Description   | IRI    | Recipe example
 | ------------- | ------------- |------------------------------------------------------|----|
-| VLE Module ID |  [Entity that connects a course area in a VLE with a module](https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md)         | http://xapi.jisc.ac.uk/extensions/vle_mod_id | |
+| VLE Module ID |  [Entity that connects a course area in a VLE with a module](https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md)         | http://xapi.jisc.ac.uk/vle_mod_id | |

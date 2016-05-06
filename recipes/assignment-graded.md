@@ -69,7 +69,7 @@ The object defines the activity that has been evaluated. [Examples of valid obje
 				}
 			},
 			"extensions":{
-				"http://xapi.jisc.ac.uk/extensions/dueDate": "2016-02-05T17:59:45.000Z"
+				"http://xapi.jisc.ac.uk/dueDate": "2016-02-05T17:59:45.000Z"
 			}
 		}
 		
@@ -100,7 +100,7 @@ Plugin specific extensions are optional and not part of the core recipe. Instruc
                     "objectType":"Activity",
                     "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4",
                     "definition":{
-                        "type":"http://xapi.jisc.ac.uk/extensions/courseArea",
+                        "type":"http://xapi.jisc.ac.uk/courseArea",
                         "name":{
                             "en":"xAPI Basics"
                         },
@@ -122,12 +122,12 @@ Plugin specific extensions are optional and not part of the core recipe. Instruc
         
         "platform": "Moodle",
         "extensions":  {
-      		"http://xapi.jisc.ac.uk/extensions/courseArea": {
-      		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
+      		"http://xapi.jisc.ac.uk/courseArea": {
+      		 	 "http://xapi.jisc.ac.uk/vle_mod_id": "LA101",
                  "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
               },
 			  
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": "32456891" ,
+ 			"http://xapi.jisc.ac.uk/sessionId": "32456891" ,
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
          
 		 

@@ -25,13 +25,11 @@ Context provides information about the system returning the information it gives
 	"context": { 
         "platform": "Moodle",    //  The VLE Platform
         "extensions": {
-			"http://xapi.jisc.ac.uk/extensions/courseArea": {
+			"http://xapi.jisc.ac.uk/courseArea": {
              "id":"https://courses.alpha.jisc.ac.uk/course/view.php?id=2194" //Umbrella course/parent area by its home page URI
              },
              
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { //Session Identifier
-                "sessionId": "32456891"  
-            },
+ 			"http://xapi.jisc.ac.uk/sessionId":"32456891",
             
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48" , //IP address
             

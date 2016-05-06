@@ -48,7 +48,7 @@ Plugin specific extensions are optional and not part of the core recipe.
 "context": {
         "platform": "Moodle",
         "extensions": {
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": "32456891",
+ 			"http://xapi.jisc.ac.uk/sessionId": "32456891",
 			 
             "http://id.tincanapi.com/extensions/ip-address" :"10.3.3.48"
               
@@ -73,7 +73,7 @@ The object defines the item that the user has timed out of.  A [Jisc specific ex
                 "en": "A Moodle course"
             },
             "extensions": {
-                "http://xapi.jisc.ac.uk/extensions/applicationType": {
+                "http://xapi.jisc.ac.uk/applicationType": {
                     "type": "http://id.tincanapi.com/activitytype/lms"
                 }
             }
