@@ -72,8 +72,7 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
                 "en": "A Moodle course"
             },
             "extensions": {
-                "http://xapi.jisc.ac.uk/applicationType": {
-                    "type": "http://id.tincanapi.com/activitytype/lms"
+                "http://xapi.jisc.ac.uk/applicationType": "http://id.tincanapi.com/activitytype/lms"
                 }
             }
         }
