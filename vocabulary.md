@@ -17,6 +17,15 @@ Usage:
 |  Completed |  Completing an activity - finishing in its entirety  |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](recipes/assignment-submitted.md) |
 |  Scored |  Indicates a numerical value related to an actor's performance on an activity. |	[http://adlnet.gov/expapi/verbs/scored](http://adlnet.gov/expapi/verbs/scored) | [Assignment Graded](recipes/assignment-graded.md#verb) |
 
+### Result
+
+Usage:
+
+- [results.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
+
+| Label  		| Description   | IRI    | Recipe example
+| ------------- | ------------- |--------|----------------|
+| Grade     | A non-numerical assessment result. Data type is string (256) |  http://xapi.jisc.ac.uk/grade |  |
 
 ### Object
 
@@ -35,7 +44,7 @@ objects for:
 Usage:
 
 atomic values for:
-- object.definition.type
+- [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition)
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
@@ -45,10 +54,10 @@ atomic values for:
 | VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
 | VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/externalURL | | | 
-| File   | Accessing any type of non-HTML file type. e.g. MS office, video or audio                 | http://xapi.jisc.ac.uk/vle/file | | | 
+| File   | Accessing any kind of non-web native file type. e.g. MS office, video or audio.           | http://xapi.jisc.ac.uk/vle/file | | | 
 
 Usage:
-- [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those element
+- [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) 
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
