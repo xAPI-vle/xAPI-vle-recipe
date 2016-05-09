@@ -80,8 +80,7 @@ The object.definition.name and object.definition.definition describe the resourc
                 "http://xapi.jisc.ac.uk/applicationType": "http://id.tincanapi.com/activitytype/lms"
                 }
             }
-        }
-    },
+        },
 ```
 
 ### Complete VLE Specific Examples
