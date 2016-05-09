@@ -61,15 +61,7 @@ Plugin specific extensions are optional and not part of the core recipe.
 ```
 
 ## Object:
-Needs to identify what was requested. A list of valid values can be found at [examples of object.definition.extensions](vocabulary#Object.definition.extension)
-
-### Example Valid Values:
-- http://xapi.jisc.ac.uk/vle/page 
-- http://xapi.jisc.ac.uk/vle/quiz 
-- http://xapi.jisc.ac.uk/vle/forum 
-- http://xapi.jisc.ac.uk/externalURL 
-- http://xapi.jisc.ac.uk/documents/wordDocument 
-- http://xapi.jisc.ac.uk/documents/excelDocument 
+Needs to identify what was requested. A list of valid values can be found at [the definition of  object.definition.extensions on the vocabulary page](../vocabulary.md#Object.definition.extension)
 
 
 ``` javascript
