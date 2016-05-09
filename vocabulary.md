@@ -52,7 +52,7 @@ Usage:
 
 | Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
-| Due Date        	| Date object is due to be submitted | http://xapi.jisc.ac.uk/dueDate      |     | |
+| Due Date        	| Date object is due to be submitted. Format is ISO 8601 date time | http://xapi.jisc.ac.uk/dueDate      |     | |
 | Application Type |  Identifies the genre of software application  | http://xapi.jisc.ac.uk/applicationType | [Logged in](recipes/login.md#object)|
 
 
