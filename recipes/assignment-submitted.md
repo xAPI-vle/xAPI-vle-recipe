@@ -1,5 +1,5 @@
 # VLE User Submits Assignment Recipe
-Revision: 1.0
+Revision: 1.1
 
 ## Purpose
 This activity records a user submitting an assignment
@@ -36,12 +36,11 @@ The Verb, [completed](/vocabulary.md#verbs) describes the action of completing a
 ``` 
 
 ### Result
-The result object can include completion. See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
+The optional result entity can include completion. See [the xAPI specification for a full description of the result entity](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
 
 
 ``` javascript
  "result":{
- 
         "completion":true
     }
 ```
