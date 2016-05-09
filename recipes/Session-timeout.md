@@ -62,23 +62,21 @@ The object defines the item that the user has timed out of.  A [Jisc specific ex
 ``` javascript
 
 "object": {
-        "objectType": "Activity",
-        "id": "https://courses.alpha.jisc.ac.uk/moodle",
-        "definition": {
-            "type": "http://activitystrea.ms/schema/1.0/application",
-            "name": {
-                "en": "A Moodle course"
-            },
-            "description": {
-                "en": "A Moodle course"
-            },
-            "extensions": {
-                "http://xapi.jisc.ac.uk/applicationType": {
-                    "type": "http://id.tincanapi.com/activitytype/lms"
-                }
-            }
+    "objectType": "Activity",
+    "id": "https://courses.alpha.jisc.ac.uk/moodle",
+    "definition": {
+        "type": "http://activitystrea.ms/schema/1.0/application",
+        "name": {
+            "en": "A Moodle course"
+        },
+        "description": {
+            "en": "A Moodle course"
+        },
+        "extensions": {
+            "http://xapi.jisc.ac.uk/applicationType": "http://id.tincanapi.com/activitytype/lms"
         }
-    },
+    }
+}
 ```
 
 
