@@ -30,7 +30,7 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
 "verb": {
         "id": "https://brindlewaye.com/xAPITerms/verbs/loggedin/",
         "display": {
-            "en"
+            "en" : "logged in to"
         }
     },
 ``` 
@@ -48,13 +48,11 @@ Plugin specific extensions are optional and not part of the core recipe.
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": 
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
-                "sessionId": "32456891"  
-             },
-            "http://id.tincanapi.com/extensions/ip-address": {  
-                "ip-address":"10.3.3.48"
-              }
+        "extensions": {
+ 			"http://xapi.jisc.ac.uk/sessionId": "32456891",
+			 
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
+              
         }
 ```
 
@@ -62,7 +60,8 @@ Plugin specific extensions are optional and not part of the core recipe.
 
 ### Object
 
-The object defines the item that the user hits when they login into a VLE.   A [Jisc specific extension](/common_statements.md#jisc_extensions) details that it is a VLE that is being logged into 
+The object.definition.name and object.definition.definition describe the resource returned to the user after they have performed the logged in event. The object.definition.extensions.[applicationType](http://xapi.jisc.ac.uk/applicationType) is used to identify the system type that is being logged into: a lms, identified by  http://id.tincanapi.com/activitytype/lms
+
 
 ``` javascript
 
@@ -78,12 +77,10 @@ The object defines the item that the user hits when they login into a VLE.   A [
                 "en": "A Moodle course"
             },
             "extensions": {
-                "http://xapi.jisc.ac.uk/extensions/applicationType": {
-                    "type": "http://xapi.jisc.ac.uk/define/vle"
+                "http://xapi.jisc.ac.uk/applicationType": "http://id.tincanapi.com/activitytype/lms"
                 }
             }
-        }
-    },
+        },
 ```
 
 ### Complete VLE Specific Examples

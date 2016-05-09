@@ -1,5 +1,5 @@
 # VLE Assignment Graded Recipe
-Revision: 1.0
+Revision: 1.1
 
 ## Purpose
 This activity records a graded assignment
@@ -24,22 +24,33 @@ This activity records a graded assignment
 
 ### Verb
 
-The Verb, [evaluated](/vocabulary.md#verbs) describes the action of evaluating a learning activity.
+The Verb, [scored](/vocabulary.md#verbs) describes the action of evaluating a learning activity.
 
 ``` javascript
  "verb":{
-        "id":"http://www.tincanapi.co.uk/verbs/evaluated",
+        "id":"http://adlnet.gov/expapi/verbs/scored ",
         "display":{
-            "en":"evaluated"
+            "en":"scored"
          }
-    },
-    "result":{
-        "score":{
-            "raw":8
-        },
-        "completion":true
     }
 ``` 
+
+### Result
+The result entity can include scaled, raw, min and max score, success, and response (the instructor's feedback). See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result). In the Jisc profile, the use of the result entity and any of its properties is optional. 
+
+See the [vocabulary](../vocabulary.md) page for a definition of the http://xapi.jisc.ac.uk/grade extension.
+
+
+``` javascript
+ "result":{
+        "score":{
+            "raw":8
+                }
+        "extensions": {
+        	"http://xapi.jisc.ac.uk/grade":"5 stars"
+        	}
+    },
+```
 
 ### Object
 The object defines the activity that has been evaluated. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.
@@ -61,8 +72,7 @@ The object defines the activity that has been evaluated. [Examples of valid obje
 				}
 			},
 			"extensions":{
-				"http://xapi.jisc.ac.uk/extensions/duedate":{
-				"duedate":"2016-02-05T17:59:45.000Z"
+				"http://xapi.jisc.ac.uk/dueDate": "2016-02-05T17:59:45.000Z"
 			}
 		}
 		
@@ -82,7 +92,7 @@ SessionId is the VLE session Id
 
 contextActivities has a context type of grouping. A course that relates to a assignment as the parent.
 
-Plugin specific extensions are optional and not part of the core recipe.
+Plugin specific extensions are optional and not part of the core recipe. Instructor is optional and is the instructor that the Statement relates to.
 
 
 ``` javascript
@@ -93,7 +103,7 @@ Plugin specific extensions are optional and not part of the core recipe.
                     "objectType":"Activity",
                     "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4",
                     "definition":{
-                        "type":"http://adlnet.gov/expapi/activities/course",
+                        "type":"http://xapi.jisc.ac.uk/courseArea",
                         "name":{
                             "en":"xAPI Basics"
                         },
@@ -104,20 +114,26 @@ Plugin specific extensions are optional and not part of the core recipe.
                 }
             ]
         },
+		
+		"instructor": {
+            "objectType": "Agent",
+            "name": "instructor",
+            "account": {
+                "name": "2",
+                "homePage": "http://localhost/moodle"
+            },
         
         "platform": "Moodle",
-        "extensions": 
-       	 {
-      		"http://xapi.jisc.ac.uk/extensions/courseArea": {
-      		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
+        "extensions":  {
+      		"http://xapi.jisc.ac.uk/courseArea": {
+      		 	 "http://xapi.jisc.ac.uk/vle_mod_id": "LA101",
                  "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
               },
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
-                "sessionId": "32456891"  
-             },
-            "http://id.tincanapi.com/extensions/ip-address": {  
-                "ip-address":"10.3.3.48"
-              }
+			  
+ 			"http://xapi.jisc.ac.uk/sessionId": "32456891" ,
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
+         
+		 
         }
 ```
 

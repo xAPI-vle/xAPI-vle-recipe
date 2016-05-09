@@ -48,20 +48,16 @@ Plugin specific extensions are optional and not part of the core recipe.
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": 
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
-                "sessionId": "32456891"  
-             },
-            "http://id.tincanapi.com/extensions/ip-address": {  
-                "ip-address":"10.3.3.48"
-              }
+        "extensions": {
+ 			"http://xapi.jisc.ac.uk/sessionId":"32456891",
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"    
         }
 ```
 
 ### Object
 
 
-The object defines the item that the user has logged out of.  A [Jisc specific extension](common_statements.md#jisc_extensions) details that it is a VLE that is being logged out of 
+The object defines the item that the user has logged out of.  A [Jisc specific extension](common_statements.md#jisc_extensions) details that it is a lms that is being logged out of 
 ``` javascript
 
 "object": {
@@ -76,12 +72,10 @@ The object defines the item that the user has logged out of.  A [Jisc specific e
                 "en": "A Moodle course"
             },
             "extensions": {
-                "http://xapi.jisc.ac.uk/extensions/applicationType": {
-                    "type": "http://xapi.jisc.ac.uk/define/vle"
+                "http://xapi.jisc.ac.uk/applicationType": "http://id.tincanapi.com/activitytype/lms"
                 }
             }
-        }
-    },
+        },
 ```
 
 

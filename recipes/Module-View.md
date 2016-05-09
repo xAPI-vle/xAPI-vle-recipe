@@ -48,31 +48,20 @@ Plugin specific extensions are optional and not part of the core recipe.
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": 
-       		 {
-      		"http://xapi.jisc.ac.uk/extensions/courseArea": {
-      		 	 "http://xapi.jisc.ac.uk/extensions/vle_mod_id": "LA101",
+        "extensions": {
+      		"http://xapi.jisc.ac.uk/courseArea": {
+      		 	 "http://xapi.jisc.ac.uk/vle_mod_id": "LA101",
                  "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
               },
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
-                "sessionId": "32456891"  
-             },
-            "http://id.tincanapi.com/extensions/ip-address": {  
-                "ip-address":"10.3.3.48"
-              }
+ 			"http://xapi.jisc.ac.uk/sessionId": "32456891"  ,
+	
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
+              
         }
 ```
 
 ## Object:
-Needs to identify what was requested. A list of valid values can be found at [examples of object.definition.extensions](vocabulary#Object.definition.extension)
-
-### Example Valid Values:
-- http://xapi.jisc.ac.uk/define/extensions/vle/page 
-- http://xapi.jisc.ac.uk/define/extensions/vle/quiz 
-- http://xapi.jisc.ac.uk/define/extensions/vle/forum 
-- http://xapi.jisc.ac.uk/define/extensions/externalURL 
-- http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument 
-- http://xapi.jisc.ac.uk/define/extensions/documents/excelDocument 
+Needs to identify what was requested. A list of valid values can be found at [the definition of  object.definition.extensions on the vocabulary page](../vocabulary.md#Object.definition.extension)
 
 
 ``` javascript
@@ -83,9 +72,6 @@ Needs to identify what was requested. A list of valid values can be found at [ex
 		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  definition type as above
 		"name": { "en": "Sample page" },			   //  name of item as returned by VLE
 		"description": { "en": "sample page" } //  description of item as returned by VLE
-		"extensions": {
-    				"http://xapi.jisc.ac.uk/extensions/moduleType":"http://xapi.jisc.ac.uk/define/vle/page",
-            	 	}
 	 }
 }
 ```

@@ -47,13 +47,11 @@ Plugin specific extensions are optional and not part of the core recipe.
 ``` javascript
 "context": {
         "platform": "Moodle",
-        "extensions": 
- 			"http://xapi.jisc.ac.uk/extensions/sessionId": { 
-                "sessionId": "32456891"  
-             },
-            "http://id.tincanapi.com/extensions/ip-address": {  
-                "ip-address":"10.3.3.48"
-              }
+        "extensions": {
+ 			"http://xapi.jisc.ac.uk/sessionId": "32456891",
+			 
+            "http://id.tincanapi.com/extensions/ip-address" :"10.3.3.48"
+              
         }
 ```
 
@@ -64,23 +62,21 @@ The object defines the item that the user has timed out of.  A [Jisc specific ex
 ``` javascript
 
 "object": {
-        "objectType": "Activity",
-        "id": "https://courses.alpha.jisc.ac.uk/moodle",
-        "definition": {
-            "type": "http://activitystrea.ms/schema/1.0/application",
-            "name": {
-                "en": "A Moodle course"
-            },
-            "description": {
-                "en": "A Moodle course"
-            },
-            "extensions": {
-                "http://xapi.jisc.ac.uk/extensions/applicationType": {
-                    "type": "http://xapi.jisc.ac.uk/define/vle"
-                }
-            }
+    "objectType": "Activity",
+    "id": "https://courses.alpha.jisc.ac.uk/moodle",
+    "definition": {
+        "type": "http://activitystrea.ms/schema/1.0/application",
+        "name": {
+            "en": "A Moodle course"
+        },
+        "description": {
+            "en": "A Moodle course"
+        },
+        "extensions": {
+            "http://xapi.jisc.ac.uk/applicationType": "http://id.tincanapi.com/activitytype/lms"
         }
-    },
+    }
+}
 ```
 
 
