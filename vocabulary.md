@@ -41,12 +41,11 @@ atomic values for:
 | ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
 | VLE        	| Learning Management System. At it's core, a platform used to launch and track learning experiences. | http://id.tincanapi.com/activitytype/lms      |     | |
 | VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/vle/content | | |
-| VLE page  	| Page within a VLE              | http://xapi.jisc.ac.uk/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
+| VLE page  	| Any page within a VLE that isn't designed to be learning content. e.g. navigation or administration pages              | http://xapi.jisc.ac.uk/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
 | VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
 | VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
 | External URL  | An external URL                | http://xapi.jisc.ac.uk/externalURL | | | 
-| Microsoft Word Document  | Microsoft Word Document                | http://xapi.jisc.ac.uk/define/extensions/documents/wordDocument | | | 
-| Microsoft Excel Document  | Microsoft Excel Document                | http://xapi.jisc.ac.uk/define/extensions/documents/excelDocument | | | 
+| File   | Accessing any type of non-HTML file type. e.g. MS office, video or audio                 | http://xapi.jisc.ac.uk/vle/file | | | 
 
 Usage:
 - [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) -  intended to provide a natural way to extend those element
