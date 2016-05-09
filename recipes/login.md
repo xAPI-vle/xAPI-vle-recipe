@@ -77,8 +77,7 @@ The object.definition.name and object.definition.definition describe the resourc
                 "en": "A Moodle course"
             },
             "extensions": {
-                "http://xapi.jisc.ac.uk/applicationType": {
-                    "type": "http://id.tincanapi.com/activitytype/lms"
+                "http://xapi.jisc.ac.uk/applicationType": "http://id.tincanapi.com/activitytype/lms"
                 }
             }
         }
