@@ -1,5 +1,5 @@
 # VLE Assignment Graded Recipe
-Revision: 1.0
+Revision: 1.1
 
 ## Purpose
 This activity records a graded assignment
@@ -36,7 +36,7 @@ The Verb, [scored](/vocabulary.md#verbs) describes the action of evaluating a le
 ``` 
 
 ### Result
-The result object can include scaled, raw, min and max score, success, and response (the instructor's feedback). See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result). In the Jisc profile, the use of the object and any of its properties is optional. 
+The result entity can include scaled, raw, min and max score, success, and response (the instructor's feedback). See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result). In the Jisc profile, the use of the result entity and any of its properties is optional. 
 
 See the [vocabulary](../vocabulary.md) page for a definition of the http://xapi.jisc.ac.uk/grade extension.
 
