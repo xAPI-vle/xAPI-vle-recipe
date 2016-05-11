@@ -2,11 +2,17 @@
 The following terms are in use in the Jisc learning analytics recipes.
 NOTE: The xapi.jisc.ac.uk namespace URI may change.
 
-### Verb
+### 1.0 Verbs
 
 Usage:
 
 - [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
+
+| Verb | Logged in |
+|Description | Logged in to some service |
+| IRI | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin) |
+| Recipe Example | [Logged in](recipes/login.md#verb) |
+
 
 | Label  	   | Description | IRI  | Recipe Example 
 | -------------| ----------- |------|----|
