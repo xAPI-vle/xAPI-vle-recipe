@@ -8,14 +8,16 @@ Usage:
 
 - [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
 
-| Verb | Logged in |
-|Description | Logged in to some service |
-| IRI | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin) |
-| Recipe Example | [Logged in](recipes/login.md#verb) |
+<table>
+<tr><th align="left">Verb</th><td>Logged in</td></tr>
+<tr><th align="left">Display</th><td>Logged in to some service </td></tr>
+<tr><th align="left">IRI</th><td> [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin) </td></tr>
+<tr><th align="left">Recipe</th><td>[Logged in](recipes/login.md#verb) </td></tr>
+</table>
 
 
 | Label  	   | Description | IRI  | Recipe Example 
-| -------------| ----------- |------|----|
+| -------------| ----------- |------|--------|
 |  Logged in  | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|[Logged in](recipes/login.md#verb) |
 |  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|[Logged out](recipes/logout.md#verb) |
 |  Viewed     | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed](http://id.tincanapi.com/verb/viewed) | [Object Viewed](recipes/Module-View.md#verb) |
