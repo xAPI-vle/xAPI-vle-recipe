@@ -9,90 +9,161 @@ Usage:
 
 ### 1.1 Logged in
 <table>
-<tr><th align="left">Verb</th><td>Logged in</td></tr>
-<tr><th align="left">Display</th><td>Logged in to some service </td></tr>
+<tr><th align="left">Label</th><td>Logged in</td></tr>
+<tr><th align="left">Description</th><td>Logged in to some service </td></tr>
 <tr><th align="left">IRI</th><td> <a href="https://brindlewaye.com/xAPITerms/verbs/loggedin"> https://brindlewaye.com/xAPITerms/verbs/loggedin </a> </td></tr>
-<tr><th align="left">Recipe</th><td> <a href="recipes/login.md#verb">Logged in</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/login.md#verb">Logged in</a> </td></tr>
 </table>
 
 ### 1.2 Logged out
 <table>
-<tr><th align="left">Verb</th><td>Logged out</td></tr>
-<tr><th align="left">Display</th><td>Logged out of some service</td></tr>
+<tr><th align="left">Label</th><td>Logged out</td></tr>
+<tr><th align="left">Description</th><td>Logged out of some service</td></tr>
 <tr><th align="left">IRI</th><td> <a href="https://brindlewaye.com/xAPITerms/verbs/loggedout"> https://brindlewaye.com/xAPITerms/verbs/loggedout </a> </td></tr>
-<tr><th align="left">Recipe</th><td> <a href="recipes/logout.md#verb">Logged out</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/logout.md#verb">Logged out</a> </td></tr>
 </table>
 
 ### 1.3 Viewed
 <table>
-<tr><th align="left">Verb</th><td>Viewed</td></tr>
-<tr><th align="left">Display</th><td>Indicates that the actor has viewed the object</td></tr>
+<tr><th align="left">Label</th><td>Viewed</td></tr>
+<tr><th align="left">Description</th><td>Indicates that the actor has viewed the object</td></tr>
 <tr><th align="left">IRI</th><td> <a href="http://id.tincanapi.com/verb/viewed"> http://id.tincanapi.com/verb/viewed</a> </td></tr>
-<tr><th align="left">Recipe</th><td> <a href="recipes/Module-View.md#verb">Object Viewed</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/Module-View.md#verb">Object Viewed</a> </td></tr>
 </table>
 
 ### 1.4 Session timed out
 <table>
-<tr><th align="left">Verb</th><td>Session timed out</td></tr>
-<tr><th align="left">Display</th><td>IIndicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure. </td></tr>
+<tr><th align="left">Label</th><td>Session timed out</td></tr>
+<tr><th align="left">Description</th><td>IIndicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure. </td></tr>
 <tr><th align="left">IRI</th><td> <a href="https://w3id.org/xapi/adl/verbs/abandoned">https://w3id.org/xapi/adl/verbs/abandoned</a> </td></tr>
-<tr><th align="left">Recipe</th><td> <a href="recipes/Session-timeout.md#verb">Session Timeout</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/Session-timeout.md#verb">Session Timeout</a> </td></tr>
 </table>
 
 ### 1.5 Completed
 <table>
-<tr><th align="left">Verb</th><td>Completed</td></tr>
-<tr><th align="left">Display</th><td>Completing an activity - finishing in its entirety</td></tr>
+<tr><th align="left">Label</th><td>Completed</td></tr>
+<tr><th align="left">Description</th><td>Completing an activity - finishing in its entirety</td></tr>
 <tr><th align="left">IRI</th><td> <a href="http://adlnet.gov/expapi/verbs/completed">http://adlnet.gov/expapi/verbs/completed</a> </td></tr>
-<tr><th align="left">Recipe</th><td> <a href="recipes/assignment-submitted.md">Assignment submitted</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/assignment-submitted.md">Assignment submitted</a> </td></tr>
 </table>
 
 ### 1.6 Scored
 <table>
-<tr><th align="left">Verb</th><td>Scored</td></tr>
-<tr><th align="left">Display</th><td>Indicates a numerical value related to an actor's performance on an activity.</td></tr>
+<tr><th align="left">Label</th><td>Scored</td></tr>
+<tr><th align="left">Description</th><td>Indicates a numerical value related to an actor's performance on an activity.</td></tr>
 <tr><th align="left">IRI</th><td> <a href="http://adlnet.gov/expapi/verbs/scored">http://adlnet.gov/expapi/verbs/scored</a> </td></tr>
-<tr><th align="left">Recipe</th><td> <a href="recipes/assignment-graded.md#verb">Assignment Graded</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/assignment-graded.md#verb">Assignment Graded</a> </td></tr>
 </table>
 
-### Result
+## 2.0 Result
 
 Usage:
 
-- [results.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
+- [results.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result
 
-| Label  		| Description   | IRI    | Recipe example
-| ------------- | ------------- |--------|----------------|
-| Grade     | A non-numerical assessment result. Data type is string (256) |  http://xapi.jisc.ac.uk/grade |  |
+### 2.1 Grade
 
-### Object
+<table>
+<tr><th align="left">Label</th><td>Scored</td></tr>
+<tr><th align="left">Description</th><td>A non-numerical assessment result. Data type is string (256)</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/grade">http://xapi.jisc.ac.uk/grade</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/assignment-graded.md#verb">Assignment Graded</a> </td></tr>
+</table>
 
+
+## 3.0 Object
 
 Usage:
-
 objects for:
 - [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
 
-| Label  		| Description   | IRI    | Recipe example
-| ------------- | ------------- |--------|----------------|
-| Application   | Represents any kind of software application   | [ http://activitystrea.ms/schema/1.0/application](http://activitystrea.ms/schema/1.0/application)  	|[Logged in](recipes/login.md#complete_example) |
-| Module        | A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content.          | [http://adlnet.gov/expapi/activities/module](http://adlnet.gov/expapi/activities/module) | [Module-View](recipes/Module-View.md#object) |
 
+### 3.1 Application
+
+<table>
+<tr><th align="left">Label</th><td>Application</td></tr>
+<tr><th align="left">Description</th><td>Represents any kind of software application</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://activitystrea.ms/schema/1.0/application">http://activitystrea.ms/schema/1.0/application</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/login.md#complete_example">Logged in</a> </td></tr>
+</table>
+
+
+### 3.2 Module
+
+<table>
+<tr><th align="left">Label</th><td>Module</td></tr>
+<tr><th align="left">Description</th><td>A module represents any “content aggregation” at least one level below the course level. Modules of modules can exist for layering purposes. Modules are not content. Modules are one level up from all content. </td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://adlnet.gov/expapi/activities/module">http://adlnet.gov/expapi/activities/module</a> </td></tr>
+<tr><th align="left">Recipe Example</th><td> <a href="recipes/Module-View.md#object">Module-View</a> </td></tr>
+</table>
 
 Usage:
 
 atomic values for:
 - [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition)
 
-| Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
-| ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
-| VLE        	| Learning Management System. At it's core, a platform used to launch and track learning experiences. | http://id.tincanapi.com/activitytype/lms      |     | |
-| VLE content   |   Any generic resource in a VLE   | http://xapi.jisc.ac.uk/vle/content | | |
-| VLE page  	| Any page within a VLE that isn't designed to be learning content. e.g. navigation or administration pages              | http://xapi.jisc.ac.uk/vle/page  | [Object View](recipes/Module-View.md#object) |[A page](http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9)| |
-| VLE quiz  	| Quiz within a VLE              | http://xapi.jisc.ac.uk/vle/quiz  | [Object View](recipes/Module-View.md#object) |[A quiz](http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13)| |
-| VLE forum  	| A VLE forum/discussion board   | http://xapi.jisc.ac.uk/vle/forum |                                              |[A forum](http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12)| [Discussion board](https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)  |
-| External URL  | An external URL                | http://xapi.jisc.ac.uk/externalURL | | | 
-| File   | Accessing any kind of non-web native file type. e.g. MS office, video or audio.           | http://xapi.jisc.ac.uk/vle/file | | | 
+### 3.2 VLE
+
+<table>
+<tr><th align="left">Label</th><td>VLE</td></tr>
+<tr><th align="left">Description</th><td>Learning Management System. At it's core, a platform used to launch and track learning experiences.</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://id.tincanapi.com/activitytype/lms ">http://id.tincanapi.com/activitytype/lms </a> </td></tr>
+</table>
+
+### 3.3 VLE content
+
+<table>
+<tr><th align="left">Label</th><td>VLE content</td></tr>
+<tr><th align="left">Description</th><td>Any generic resource in a VLE</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle/content">http://xapi.jisc.ac.uk/vle/content</a> </td></tr>
+</table>
+
+### 3.4 VLE page
+
+<table>
+<tr><th align="left">Label</th><td>VLE Page</td></tr>
+<tr><th align="left">Description</th><td>Any page within a VLE that isn't designed to be learning content. e.g. navigation or administration pages   </td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle/page">http://xapi.jisc.ac.uk/vle/page</a> </td></tr>
+<tr><th align="left">Example in Recipe</th><td> <a href="recipes/Module-View.md#object">Module-View</a> </td></tr>
+<tr><th align="left">UI Example</th><td> <a href="http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9">A page on University of Jisc</a> </td></tr>
+</table>
+
+### 3.5 VLE Quiz
+
+<table>
+<tr><th align="left">Label</th><td>VLE Quiz</td></tr>
+<tr><th align="left">Description</th><td>Quiz within a VLE</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle/quiz">http://xapi.jisc.ac.uk/vle/quiz</a> </td></tr>
+<tr><th align="left">Example in Recipe</th><td> <a href="recipes/Module-View.md#object">Module-View</a> </td></tr>
+<tr><th align="left">UI Example</th><td> <a href="http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=13">A quiz on University of Jisc</a> </td></tr>
+</table>
+
+### 3.6 VLE Forum
+
+<table>
+<tr><th align="left">Label</th><td>VLE forum</td></tr>
+<tr><th align="left">Description</th><td>A VLE forum/discussion board</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle/forum">http://xapi.jisc.ac.uk/vle/forum</a> </td></tr>
+<tr><th align="left">UI Example (Moodle)</th><td> <a href="http://moodle.data.alpha.jisc.ac.uk/mod/forum/view.php?id=12">A forum on University of Jisc</a> </td></tr>
+<tr><th align="left">UI Example (Blackboard)</th><td> <a href="https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)">A discussion board on University of Jisc</a> </td></tr>
+</table>
+
+### 3.7 External URL
+
+<table>
+<tr><th align="left">Label</th><td>External URL</td></tr>
+<tr><th align="left">Description</th><td>An external URL</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/externalURL">http://xapi.jisc.ac.uk/externalURL</a> </td></tr>
+</table>
+
+
+### 3.8 File
+
+<table>
+<tr><th align="left">Label</th><td>File</td></tr>
+<tr><th align="left">Description</th><td>Accessing any kind of non-web native file type. e.g. MS office, video or audio. </td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle/file">http://xapi.jisc.ac.uk/vle/forum</a> </td></tr>
+</table>
 
 Usage:
 - [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) 
