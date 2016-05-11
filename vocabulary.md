@@ -2,28 +2,58 @@
 The following terms are in use in the Jisc learning analytics recipes.
 NOTE: The xapi.jisc.ac.uk namespace URI may change.
 
-### 1.0 Verbs
+## 1.0 Verbs
 
 Usage:
-
 - [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
 
+### 1.1 Logged in
 <table>
 <tr><th align="left">Verb</th><td>Logged in</td></tr>
 <tr><th align="left">Display</th><td>Logged in to some service </td></tr>
-<tr><th align="left">IRI</th><td> [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin) </td></tr>
-<tr><th align="left">Recipe</th><td>[Logged in](recipes/login.md#verb) </td></tr>
+<tr><th align="left">IRI</th><td> <a href="https://brindlewaye.com/xAPITerms/verbs/loggedin"> https://brindlewaye.com/xAPITerms/verbs/loggedin </a> </td></tr>
+<tr><th align="left">Recipe</th><td> <a href="recipes/login.md#verb">Logged in</a> </td></tr>
 </table>
 
+### 1.2 Logged out
+<table>
+<tr><th align="left">Verb</th><td>Logged out</td></tr>
+<tr><th align="left">Display</th><td>Logged out of some service</td></tr>
+<tr><th align="left">IRI</th><td> <a href="https://brindlewaye.com/xAPITerms/verbs/loggedout"> https://brindlewaye.com/xAPITerms/verbs/loggedout </a> </td></tr>
+<tr><th align="left">Recipe</th><td> <a href="recipes/logout.md#verb">Logged out</a> </td></tr>
+</table>
 
-| Label  	   | Description | IRI  | Recipe Example 
-| -------------| ----------- |------|--------|
-|  Logged in  | Logged in to some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedin](https://brindlewaye.com/xAPITerms/verbs/loggedin)|[Logged in](recipes/login.md#verb) |
-|  Logged out | Logged out of some service  | [https://brindlewaye.com/xAPITerms/verbs/loggedout](https://brindlewaye.com/xAPITerms/verbs/loggedout")|[Logged out](recipes/logout.md#verb) |
-|  Viewed     | Indicates that the actor has viewed the object  |	[http://id.tincanapi.com/verb/viewed](http://id.tincanapi.com/verb/viewed) | [Object Viewed](recipes/Module-View.md#verb) |
-|  Session timed out | Indicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure.  |	[https://w3id.org/xapi/adl/verbs/abandoned] (https://w3id.org/xapi/adl/verbs/abandoned) | [Session Timeout](recipes/Session-timeout.md#verb) |
-|  Completed |  Completing an activity - finishing in its entirety  |	[http://adlnet.gov/expapi/verbs/completed] (http://adlnet.gov/expapi/verbs/completed) | [Assignment submitted](recipes/assignment-submitted.md) |
-|  Scored |  Indicates a numerical value related to an actor's performance on an activity. |	[http://adlnet.gov/expapi/verbs/scored](http://adlnet.gov/expapi/verbs/scored) | [Assignment Graded](recipes/assignment-graded.md#verb) |
+### 1.3 Viewed
+<table>
+<tr><th align="left">Verb</th><td>Viewed</td></tr>
+<tr><th align="left">Display</th><td>Indicates that the actor has viewed the object</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://id.tincanapi.com/verb/viewed"> http://id.tincanapi.com/verb/viewed</a> </td></tr>
+<tr><th align="left">Recipe</th><td> <a href="recipes/Module-View.md#verb">Object Viewed</a> </td></tr>
+</table>
+
+### 1.4 Session timed out
+<table>
+<tr><th align="left">Verb</th><td>Session timed out</td></tr>
+<tr><th align="left">Display</th><td>IIndicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure. </td></tr>
+<tr><th align="left">IRI</th><td> <a href="https://w3id.org/xapi/adl/verbs/abandoned">https://w3id.org/xapi/adl/verbs/abandoned</a> </td></tr>
+<tr><th align="left">Recipe</th><td> <a href="recipes/Session-timeout.md#verb">Session Timeout</a> </td></tr>
+</table>
+
+### 1.5 Completed
+<table>
+<tr><th align="left">Verb</th><td>Completed</td></tr>
+<tr><th align="left">Display</th><td>Completing an activity - finishing in its entirety</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://adlnet.gov/expapi/verbs/completed">http://adlnet.gov/expapi/verbs/completed</a> </td></tr>
+<tr><th align="left">Recipe</th><td> <a href="recipes/assignment-submitted.md">Assignment submitted</a> </td></tr>
+</table>
+
+### 1.6 Scored
+<table>
+<tr><th align="left">Verb</th><td>Scored</td></tr>
+<tr><th align="left">Display</th><td>Indicates a numerical value related to an actor's performance on an activity.</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://adlnet.gov/expapi/verbs/scored">http://adlnet.gov/expapi/verbs/scored</a> </td></tr>
+<tr><th align="left">Recipe</th><td> <a href="recipes/assignment-graded.md#verb">Assignment Graded</a> </td></tr>
+</table>
 
 ### Result
 
