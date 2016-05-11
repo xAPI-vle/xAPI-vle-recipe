@@ -168,21 +168,49 @@ atomic values for:
 Usage:
 - [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) 
 
-| Label  		| Description                    | IRI    | Recipe Example  | Moodle User Interface Example | Blackboard User Interface Example
-| ------------- | -------------------------------|--------|---------------------|----------------|-------------------|
-| Due Date        	| Date object is due to be submitted. Format is ISO 8601 date time | http://xapi.jisc.ac.uk/dueDate      |     | |
-| Application Type |  Identifies the genre of software application  | http://xapi.jisc.ac.uk/applicationType | [Logged in](recipes/login.md#object)|
+
+### 3.9 Due Date
+
+<table>
+<tr><th align="left">Label</th><td>Due Date</td></tr>
+<tr><th align="left">Description</th><td>Date object is due to be submitted. Format is ISO 8601 date time . </td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/dueDate">http://xapi.jisc.ac.uk/dueDate</a> </td></tr>
+</table>
+
+### 3.10 Application Tyle
+
+<table>
+<tr><th align="left">Label</th><td>Application Type </td></tr>
+<tr><th align="left">Description</th><td>Identifies the genre of software application </td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/applicationType">http://xapi.jisc.ac.uk/applicationType</a> </td></tr>
+<tr><th align="left">Example in Recipe</th><td> <a href="recipes/login.md#object">Logged in</a> </td></tr>
+</table>
 
 
-### Context
+## 4. Context
 
 Usage:
 - [Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
 
 
+### 4.1 Umbrella course area
+
+<table>
+<tr><th align="left">Label</th><td>Umbrella course area</td></tr>
+<tr><th align="left">Description</th><td> Umbrella course/parent area by its home page URI </td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/courseArea">http://xapi.jisc.ac.uk/courseArea</a> </td></tr>
+</table>
+
+### 4.2 Session id
+
+<table>
+<tr><th align="left">Label</th><td>Session id</td></tr>
+<tr><th align="left">Description</th><td>local session id</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/applicationType">http://xapi.jisc.ac.uk/applicationType</a> </td></tr>
+</table>
+
 | Label  		| Description   | IRI    | Recipe example
-| ------------- | ------------- |------------------------------------------------------|----|
-| Umbrella course area |  Umbrella course/parent area by its home page URI         | http://xapi.jisc.ac.uk/courseArea | |
+| ------------- | ------------- |------------------------------------------------------|----|        | http://xapi.jisc.ac.uk/courseArea | |
 | Session id 	|  local session id       | http://xapi.jisc.ac.uk/sessionId | |
 | IP address	|  client's address location on internet     | http://id.tincanapi.com/extension/ip-address | |
 | Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/recipeVersion | |
