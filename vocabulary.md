@@ -206,17 +206,31 @@ Usage:
 <table>
 <tr><th align="left">Label</th><td>Session id</td></tr>
 <tr><th align="left">Description</th><td>local session id</td></tr>
-<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/applicationType">http://xapi.jisc.ac.uk/applicationType</a> </td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/sessionId">http://xapi.jisc.ac.uk/sessionId</a> </td></tr>
 </table>
 
-| Label  		| Description   | IRI    | Recipe example
-| ------------- | ------------- |------------------------------------------------------|----|        | http://xapi.jisc.ac.uk/courseArea | |
-| Session id 	|  local session id       | http://xapi.jisc.ac.uk/sessionId | |
-| IP address	|  client's address location on internet     | http://id.tincanapi.com/extension/ip-address | |
-| Recipe Version|  Version of Recipe used. Version number can be found on recipe page    | http://xapi.jisc.ac.uk/recipeVersion | |
+### 4.3 IP address
+
+<table>
+<tr><th align="left">Label</th><td>Session id</td></tr>
+<tr><th align="left">Description</th><td>client's address location on internet</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://id.tincanapi.com/extension/ip-address">http://id.tincanapi.com/extension/ip-address</a> </td></tr>
+</table>
+
+### 4.4 Recipe Version
+
+<table>
+<tr><th align="left">Label</th><td>Recipe Version</td></tr>
+<tr><th align="left">Description</th><td>Version of Recipe used. Version number can be found on recipe page</td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/recipeVersion">http://xapi.jisc.ac.uk/recipeVersion</a> </td></tr>
+</table>
 
 - Context.extensions.courseArea
+ 
+### 4.5 VLE Module ID
 
-| Label  		| Description   | IRI    | Recipe example
-| ------------- | ------------- |------------------------------------------------------|----|
-| VLE Module ID |  [Entity that connects a course area in a VLE with a module](https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md)         | http://xapi.jisc.ac.uk/vle_mod_id | |
+<table>
+<tr><th align="left">Label</th><td>VLE Module ID</td></tr>
+<tr><th align="left">Description</th><td><a href="https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md  ">Entity that connects a course area in a VLE with a module</a></td></tr>
+<tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle_mod_id">http://xapi.jisc.ac.uk/vle_mod_id</a> </td></tr>
+</table>
