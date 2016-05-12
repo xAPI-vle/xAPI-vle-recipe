@@ -1,13 +1,13 @@
-# JISC Learning Analytics Vocabulary
+# JISC Learning Analytics Statements and Vocabulary
 The following terms are in use in the Jisc learning analytics recipes.
 NOTE: The xapi.jisc.ac.uk namespace URI may change.
 
-## 1.0 Verbs
+## 1.0 Vocabulary
 
-Usage:
-- [verb.id](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) -Corresponds to a Verb definition.
+### 1.1 Verbs
+The following [xAPI verbs](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) are defined:
 
-### 1.1 Logged in
+### Logged in
 <table>
 <tr><th align="left">Label</th><td>Logged in</td></tr>
 <tr><th align="left">Description</th><td>Logged in to some service </td></tr>
@@ -15,7 +15,7 @@ Usage:
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/login.md#verb">Logged in</a> </td></tr>
 </table>
 
-### 1.2 Logged out
+### Logged out
 <table>
 <tr><th align="left">Label</th><td>Logged out</td></tr>
 <tr><th align="left">Description</th><td>Logged out of some service</td></tr>
@@ -23,7 +23,7 @@ Usage:
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/logout.md#verb">Logged out</a> </td></tr>
 </table>
 
-### 1.3 Viewed
+### Viewed
 <table>
 <tr><th align="left">Label</th><td>Viewed</td></tr>
 <tr><th align="left">Description</th><td>Indicates that the actor has viewed the object</td></tr>
@@ -31,7 +31,7 @@ Usage:
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/Module-View.md#verb">Object Viewed</a> </td></tr>
 </table>
 
-### 1.4 Session timed out
+### Session timed out
 <table>
 <tr><th align="left">Label</th><td>Session timed out</td></tr>
 <tr><th align="left">Description</th><td>IIndicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure. </td></tr>
@@ -39,7 +39,7 @@ Usage:
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/Session-timeout.md#verb">Session Timeout</a> </td></tr>
 </table>
 
-### 1.5 Completed
+### Completed
 <table>
 <tr><th align="left">Label</th><td>Completed</td></tr>
 <tr><th align="left">Description</th><td>Completing an activity - finishing in its entirety</td></tr>
@@ -47,7 +47,7 @@ Usage:
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/assignment-submitted.md">Assignment submitted</a> </td></tr>
 </table>
 
-### 1.6 Scored
+### Scored
 <table>
 <tr><th align="left">Label</th><td>Scored</td></tr>
 <tr><th align="left">Description</th><td>Indicates a numerical value related to an actor's performance on an activity.</td></tr>
@@ -55,13 +55,15 @@ Usage:
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/assignment-graded.md#verb">Assignment Graded</a> </td></tr>
 </table>
 
-## 2.0 Result
+## 1.2 Result
 
-Usage:
+In the Jisc profile, the use of the [result entity](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result) and any of its properties is optional. See the [recipes/assignment-graded.md#verb](assignment graded recipe#result) for an example.
 
-- [results.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result
+### 1.2.1 Result Extensions
 
-### 2.1 Grade
+The following are extension properties in the result entity:
+
+### Grade
 
 <table>
 <tr><th align="left">Label</th><td>Scored</td></tr>
@@ -71,14 +73,14 @@ Usage:
 </table>
 
 
-## 3.0 Object
-
-Usage:
-objects for:
-- [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition) -The type of Activity.
+## 1.3 Object
 
 
-### 3.1 Application
+### 1.3.1 Object Definition
+The following are properties of the [Activity Definition Object](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition). See the  See the [item view recipe](recipes/Module-View.md#object) for an example.
+
+
+### Application
 
 <table>
 <tr><th align="left">Label</th><td>Application</td></tr>
@@ -88,7 +90,7 @@ objects for:
 </table>
 
 
-### 3.2 Module
+### Module
 
 <table>
 <tr><th align="left">Label</th><td>Module</td></tr>
@@ -97,12 +99,7 @@ objects for:
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/Module-View.md#object">Module-View</a> </td></tr>
 </table>
 
-Usage:
-
-atomic values for:
-- [object.definition.type](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition)
-
-### 3.2 VLE
+### VLE
 
 <table>
 <tr><th align="left">Label</th><td>VLE</td></tr>
@@ -110,7 +107,7 @@ atomic values for:
 <tr><th align="left">IRI</th><td> <a href="http://id.tincanapi.com/activitytype/lms ">http://id.tincanapi.com/activitytype/lms </a> </td></tr>
 </table>
 
-### 3.3 VLE content
+### VLE content
 
 <table>
 <tr><th align="left">Label</th><td>VLE content</td></tr>
@@ -118,7 +115,7 @@ atomic values for:
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle/content">http://xapi.jisc.ac.uk/vle/content</a> </td></tr>
 </table>
 
-### 3.4 VLE page
+### VLE page
 
 <table>
 <tr><th align="left">Label</th><td>VLE Page</td></tr>
@@ -128,7 +125,7 @@ atomic values for:
 <tr><th align="left">UI Example</th><td> <a href="http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=9">A page on University of Jisc</a> </td></tr>
 </table>
 
-### 3.5 VLE Quiz
+### VLE Quiz
 
 <table>
 <tr><th align="left">Label</th><td>VLE Quiz</td></tr>
@@ -138,7 +135,7 @@ atomic values for:
 <tr><th align="left">UI Example</th><td> <a href="http://moodle.data.alpha.jisc.ac.uk/mod/page/view.php?id=13">A quiz on University of Jisc</a> </td></tr>
 </table>
 
-### 3.6 VLE Forum
+### VLE Forum
 
 <table>
 <tr><th align="left">Label</th><td>VLE forum</td></tr>
@@ -148,7 +145,7 @@ atomic values for:
 <tr><th align="left">UI Example (Blackboard)</th><td> <a href="https://jisc.blackboard.com/webapps/discussionboard/do/forum?action=list_threads&course_id=_144_1&forum_id=81&nav=discussion_board&conf_id=_164_1&content_id=_218_1&mode=view)">A discussion board on University of Jisc</a> </td></tr>
 </table>
 
-### 3.7 External URL
+### External URL
 
 <table>
 <tr><th align="left">Label</th><td>External URL</td></tr>
@@ -156,8 +153,7 @@ atomic values for:
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/externalURL">http://xapi.jisc.ac.uk/externalURL</a> </td></tr>
 </table>
 
-
-### 3.8 File
+### File
 
 <table>
 <tr><th align="left">Label</th><td>File</td></tr>
@@ -165,11 +161,10 @@ atomic values for:
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle/file">http://xapi.jisc.ac.uk/vle/forum</a> </td></tr>
 </table>
 
-Usage:
-- [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object) 
+## 1.3.1 Object Definition Extensions
+The following are used in [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object). See the [Assignment Graded](recipes/assignment-graded.md#verb)
 
-
-### 3.9 Due Date
+### Due Date
 
 <table>
 <tr><th align="left">Label</th><td>Due Date</td></tr>
@@ -177,7 +172,7 @@ Usage:
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/dueDate">http://xapi.jisc.ac.uk/dueDate</a> </td></tr>
 </table>
 
-### 3.10 Application Tyle
+### Application Tyle
 
 <table>
 <tr><th align="left">Label</th><td>Application Type </td></tr>
@@ -186,14 +181,14 @@ Usage:
 <tr><th align="left">Example in Recipe</th><td> <a href="recipes/login.md#object">Logged in</a> </td></tr>
 </table>
 
-
-## 4. Context
-
-Usage:
-- [Context.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context)
+## 1.4 Context
 
 
-### 4.1 Umbrella course area
+## 1.4.1 Context Extensions
+The following are properties of the [Context extensions property](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#416-context).
+
+
+### Umbrella course area
 
 <table>
 <tr><th align="left">Label</th><td>Umbrella course area</td></tr>
@@ -201,7 +196,7 @@ Usage:
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/courseArea">http://xapi.jisc.ac.uk/courseArea</a> </td></tr>
 </table>
 
-### 4.2 Session id
+### Session id
 
 <table>
 <tr><th align="left">Label</th><td>Session id</td></tr>
@@ -209,7 +204,7 @@ Usage:
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/sessionId">http://xapi.jisc.ac.uk/sessionId</a> </td></tr>
 </table>
 
-### 4.3 IP address
+### IP address
 
 <table>
 <tr><th align="left">Label</th><td>Session id</td></tr>
@@ -217,7 +212,7 @@ Usage:
 <tr><th align="left">IRI</th><td> <a href="http://id.tincanapi.com/extension/ip-address">http://id.tincanapi.com/extension/ip-address</a> </td></tr>
 </table>
 
-### 4.4 Recipe Version
+### Recipe Version
 
 <table>
 <tr><th align="left">Label</th><td>Recipe Version</td></tr>
@@ -225,12 +220,37 @@ Usage:
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/recipeVersion">http://xapi.jisc.ac.uk/recipeVersion</a> </td></tr>
 </table>
 
+## 1.4.2 Context Extensions courseArea
+The following are properties of  Context.extensions.courseArea
+
 - Context.extensions.courseArea
  
-### 4.5 VLE Module ID
+### VLE Module ID
 
 <table>
 <tr><th align="left">Label</th><td>VLE Module ID</td></tr>
-<tr><th align="left">Description</th><td><a href="https://github.com/jiscdev/analytics-udd/blob/5b86250306098be22fa32d037a555cc185bc5615/udd/module_vle_map.md  ">Entity that connects a course area in a VLE with a module</a></td></tr>
+<tr><th align="left">Description</th><td><a href="https://github.com/jiscdev/analytics-udd/module_vle_map.md  ">Entity that connects a course area in a VLE with a module</a></td></tr>
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/vle_mod_id">http://xapi.jisc.ac.uk/vle_mod_id</a> </td></tr>
 </table>
+
+## 2.0 Version Changes / identifer mappings
+
+### v0.2
+
+
+| V0.1  		| v0.2                    		 | 
+| ------------- | -------------------------------|
+| http://xapi.jisc.ac.uk/define/extensions/vle/content  | http://xapi.jisc.ac.uk/vle/content
+| http://xapi.jisc.ac.uk/define/extensions/vle/page     | http://xapi.jisc.ac.uk/vle/page  
+| http://xapi.jisc.ac.uk/define/extensions/vle/quiz     | http://xapi.jisc.ac.uk/vle/quiz  
+| http://xapi.jisc.ac.uk/define/extensions/vle/forum    | http://xapi.jisc.ac.uk/vle/forum  
+| http://xapi.jisc.ac.uk/define/extensions/externalURL  | http://xapi.jisc.ac.uk/externalURL
+| http://xapi.jisc.ac.uk/extensions/courseArea | http://xapi.jisc.ac.uk/courseArea	
+| http://xapi.jisc.ac.uk/extensions/sessionId  | http://xapi.jisc.ac.uk/sessionId 
+| http://xapi.jisc.ac.uk/extensions/recipeVersion | http://xapi.jisc.ac.uk/recipeVersion
+| http://xapi.jisc.ac.uk/extensions/applicationType | http://xapi.jisc.ac.uk/applicationType
+| http://xapi.jisc.ac.uk/extensions/duedate  | http://xapi.jisc.ac.uk/dueDate
+| http://xapi.jisc.ac.uk/define/vle   		 | http://id.tincanapi.com/activitytype/lms        
+| http://www.tincanapi.co.uk/verbs/evaluated | http://adlnet.gov/expapi/verbs/scored 
+
+## 3.0 Common Properties
