@@ -283,6 +283,8 @@ The following are properties of  Context.extensions.courseArea
  
 ### VLE Module ID
 
+http://xapi.jisc.ac.uk/extensions/vle_mod_id is a plugin specific extension, to hold the VLE course's module id, as defined in the [Jisc UDD](https://github.com/jiscdev/analytics-udd/blob/master/udd/module_vle_map.md). It is therefore not required. 
+
 <table>
 <tr><th align="left">Label</th><td>VLE Module ID</td></tr>
 <tr><th align="left">Description</th><td><a href="https://github.com/jiscdev/analytics-udd/module_vle_map.md  ">Entity that connects a course area in a VLE with a module</a></td></tr>
