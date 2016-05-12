@@ -213,7 +213,7 @@ The following are used in [object.definition.extensions](https://github.com/adln
 <tr><th align="left">Sample Value</th><td></td></tr>
 </table>
 
-### Application Tyle
+### Application Type
 
 <table>
 <tr><th align="left">Label</th><td>Application Type </td></tr>
