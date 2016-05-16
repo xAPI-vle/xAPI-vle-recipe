@@ -1,5 +1,5 @@
 # VLE User Logged In Recipe
-Revision: 1.0
+Revision: 1.1
 
 ## Purpose
 This activity records a user logging in to a VLE.
@@ -50,7 +50,6 @@ Plugin specific extensions are optional and not part of the core recipe.
         "platform": "Moodle",
         "extensions": {
  			"http://xapi.jisc.ac.uk/sessionId": "32456891",
-			 
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
               
         }

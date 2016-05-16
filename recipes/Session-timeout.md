@@ -1,5 +1,5 @@
 # VLE Session timed Out Recipe
-Revision: Working Towards 1.0
+Revision: 1.1
 
 ## Purpose
 This activity indicates the activity provider has determined that the session was abnormally terminated either by an actor or due to a system failure.
