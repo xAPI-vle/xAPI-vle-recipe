@@ -6,7 +6,7 @@ NOTE: The xapi.jisc.ac.uk namespace URI may change.
 
 ### 1.1 Verbs
 
-Example:
+Example of a verb entity:
 
 ``` javascript
 "verb": {
@@ -16,7 +16,7 @@ Example:
         }
     },
 ``` 
-	
+
 The following [xAPI verbs](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#verb) are defined:
 
 ### Logged in
@@ -67,7 +67,7 @@ The following [xAPI verbs](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.
 <tr><th align="left">Recipe Example</th><td> <a href="recipes/assignment-graded.md#verb">Assignment Graded</a> </td></tr>
 </table>
 
-## 1.2 Result
+## 1.1.1 Result
 
 In the Jisc profile, the use of the [result entity](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result) and any of its properties is optional, such as in the [recipes/assignment-graded.md#verb](assignment graded recipe#result) example.
 
@@ -84,6 +84,8 @@ Example:
         	}
     },
 ```
+
+### extensions
 
 ### 1.2.1 Result Extensions
 
@@ -102,15 +104,16 @@ The following are extension properties in the result entity:
 ## 1.3 Object
 
 
-### 1.3.1 Object Definition Types
+### 1.3.1 Activity Types
 The following are types of the [Activity Definition Object](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#activity-definition). 
 
+Example:
 ``` javascript
 "object": {
 	"objectType": "Activity",
 	"id": "http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13" 
 	"definition": {
-		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  definition type 
+		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  activity type 
 		"name": { "en": "Sample page" },			   
 		"description": { "en": "sample page" } 
 	 }
@@ -201,6 +204,8 @@ The following are types of the [Activity Definition Object](https://github.com/a
 
 ## 1.3.1 Object Definition Extensions
 The following are used in [object.definition.extensions](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#object). See the [Assignment Graded](recipes/assignment-graded.md#verb)
+
+
 
 ### Due Date
 
