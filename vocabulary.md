@@ -255,7 +255,7 @@ The following are properties of the [Context extensions property](https://github
 <tr><th align="left">IRI</th><td> <a href="http://xapi.jisc.ac.uk/sessionId">http://xapi.jisc.ac.uk/sessionId</a> </td></tr>
 <tr><th align="left">Data Type</th><td>String</td></tr>
 <tr><th align="left">Value Space</th><td>Session id as reported by the VLE</td></tr
-<tr><th align="left">Sample Value</th>32456891<td> </td></tr>
+<tr><th align="left">Sample Value</th><td>32456891</td></tr>
 </table>
 
 ### IP address
