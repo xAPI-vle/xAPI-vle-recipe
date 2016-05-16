@@ -31,8 +31,8 @@ These are the currently platform independent documented recipes:
 * [Assignment Submitted] (recipes/assignment-submitted.md)
 
 The following are currently being drafted:
-* [Logged in] (recipes/authorise.md)
-
+* [Authorise] (recipes/authorise.md)
+* [access] (recipes/access.md)
 
 ## Specific VLE examples
 * [Blackboard VLE samples] (vle/blackboard/Examples.md)
