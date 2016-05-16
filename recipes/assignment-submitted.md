@@ -46,7 +46,7 @@ The optional result entity can include completion. See [the xAPI specification f
 ```
 
 ### Object
-The object defines the activity that has been completed. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.
+The object defines the activity that has been completed. [Examples of valid object.definition vocabulary  Activity object Types](/common_statements.md#object) can be found on the vocab page.
 
 ``` javascript
 
@@ -63,13 +63,6 @@ The object defines the activity that has been completed. [Examples of valid obje
 				"en":"Course Assignment description"
 				}
 			},
-			"extensions":{
-			{
-      			"http://xapi.jisc.ac.uk/courseArea": {
-      		 		 "http://xapi.jisc.ac.uk/vle_mod_id": "LA101",
-                	 "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
-            	  },
-				  
 				"http://xapi.jisc.ac.uk/dueDate": "2016-02-05T17:59:45.000Z"
 			}
 			
@@ -113,8 +106,13 @@ Plugin specific extensions are optional and not part of the core recipe.
         
         "platform": "Moodle",
         "extensions": {
- 			"http://xapi.jisc.ac.uk/sessionId":"32456891",
+		
+      		"http://xapi.jisc.ac.uk/courseArea": {
+      		 	"http://xapi.jisc.ac.uk/vle_mod_id": "LA101",
+                "id": http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
+            },
 			
+ 			"http://xapi.jisc.ac.uk/sessionId":"32456891",
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
         }
 ```
